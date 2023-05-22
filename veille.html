@@ -7,16 +7,33 @@
 <body>
     <script>document.write(getComponent('navbar.html'))</script>
 
-    <div class="container container-second text-white text-center my-3">
+    <div class="container container-second text-white my-3">
         <h1 class="title underline">L'utilisation des anciens langages informatiques de nos jours</h1>
-        <p style="margin-top: 2%;">Les langages informatiques évoluent constamment. Chaque année de nouveaux langages informatiques apparaissent sur le marché au détriment d'autre qui deviennent obsolètes.
-            Cependant, certains anciens langages sont toujours présents et même toujours très utilisés.
-        </p>
+
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-6">
+                <h4 class="underline">Introduction</h4>
+                <p>Les langages informatiques évoluent constamment. Chaque année de nouveaux langages informatiques apparaissent sur le marché au détriment d'autres qui deviennent obsolètes.
+                    Cependant, certains anciens langages sont toujours présents et même toujours très utilisés.
+                </p>
+                <p>Dans ce travail, je me suis intéressé aux langages apparus antérieurement et jusqu'à l'apparition des premiers langages objet. </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <h4 class="underline"> Outils de recherche de ma veille :</h4>
+                <ul>
+                    <li>Daily.dev</li>
+                    <li>Forums stackoverflow, reddit etc pour le côté humain.</li>
+                </ul>
+            </div>
+        </div>
+                
     </div>
+
 
     <div class="container-flex container-main text-white text-center my-3">
         <div class="container">
-            <h4 class="title">Quelques examples d'anciens langages informatiques <script>document.write(languageIcon())</script></h4>
+            <h4 class="title">Quelques exemples d'anciens langages informatiques <script>document.write(languageIcon())</script></h4>
             <center><hr class="hr-thick"></center>
             <script>
                 document.write(divImg({
@@ -31,21 +48,29 @@
 
     <div class="container container-second text-white my-3">
         <center>
-        <h4>Quel sont les anciens langages informatiques les plus utilisés ?</h4>
+            <h4 class="title">Quel sont les anciens langages informatiques les plus utilisés ?</h4>
             <hr class="hr-thick">
             
+            <img class="img-fluid" src="pictures/veille/long-term-stats.png" alt="">
             <a href="https://www.tiobe.com/tiobe-index/" target="_blank">
-                <img class="img-fluid" src="pictures/veille/long-term-stats.png" alt="">
                 <p class="text-start">https://www.tiobe.com/tiobe-index/</p>  
             </a>
 
+      
+
 
             <div class="row">
-                <div class="col-6">
-                    
+                <div class="col-6 text-start">
+                    <p>Le tableau ci-dessus représente les langages informatiques les plus utilisés sur le long terme,
+                        on observe ici que le C et le C++ sont toujours en lice dans le classement. 
+                        A noter que le C++ est le premier langage oop (oriented object programming) populaire et qu'il est toujours d'actualité.
+                        Le C a inspiré de nombreux langages plus récents (Java, Python, C#) qui utilisent des syntaxes similaires.</p>
                 </div>
                 <div class="col-6">
-                
+                    <img class="img-fluid" src="pictures/veille/arrow-oop.jpg" alt="">
+                    <a href="https://dzone.com/articles/object-oriened-paradigm-is-false-hope" target="_blank">
+                        <p class="text-start">https://dzone.com/articles/object-oriened-paradigm-is-false-hope</p>  
+                    </a>
                 </div>
             </div>
         </center>
@@ -57,19 +82,33 @@
         
         
         <div class="container">
-            <p>Généralement, il existe deux options différentes dans l'utilisation d'un vieux langage informatique.</p>
+            <p>Généralement, il existe trois raisons différentes à l'utilisation d'un vieux langage informatique.</p>
             
             <div class="row">
-                <div class="col-md-6">
-                    <li>La première est qu'un projet est déjà ancien et qu'il est trop complexe ou pas nécessaire de changer l'architecture du projet.
+                <div class="col-md-4">
+                    <li>
+                    La première raison est son utilisation dans un projet déjà ancien dont il est trop complexe ou pas nécessaire de changer l'architecture de celui-ci, qui est fonctionnelle.
                     On pense notamment à l'utilisation du Cobol dans le domaine de la banque, de l'administration ou encore des assurances.
+                    Actuellement, le Cobol, un langage de plus de 60 ans, n'attire pas les nouveaux développeurs, bien qu'il y a toujours de la demande pour maintenir les systèmes déjà existants.
                     </li>
                 </div>
-                <div class="col-md-6">
-                    <li>La seconde est que le langage est toujours en vogue, car ils sont mis à jour.
+                <div class="col-md-4">
+                    <li>La seconde raison est que le langage est toujours en vogue car il est encore maintenu.
                     De nos jours, de nombreux vieux langages sont toujours mis à jour, standardisés ou normalisés par des organisations reconnues ou non.
-                    Par exemple, C++ est normé par ISO (organisation internationale de normalisation).
+                    Par exemple, C++ créé en 1985 par Bjarne Stroustrup est toujours normé par ISO (International Organization for Standardization).
                     </li>
+
+                    
+                </div>
+                <div class="col-md-4">
+                    <li>
+                    La troisième raison est que le langage n'a jamais connnue de concurence à la hauteur.
+                    Dans cette catégorie on peut retrouver SQL (créé en 1974 par Donald D. Chamberlin et Raymond F. Boyce)
+                    qui à toujours été le leader dans le secteur des langages de requête structurée.
+                    Il est aussi toujours maintenu par l'ISO et utilisé dans la majorité des SGBDR (système de gestion de base de données relationnelle) actuels.
+                    </li>
+
+                    
                 </div>
             </div>
         </div>
@@ -78,51 +117,17 @@
 
     <div class="container container-second text-white my-3">
         <center><h4 class="title">Quand est-il de l'avenir de ces langages ?</h4>
-       <hr class="hr-thick"></center>
-
-        <div class="row">
-            <div class="col-md-6">
-        
-            </div>
-            
-            <div class="col-md-6">
-      
-    
-            </div>
-        </div>
-    
-        <div class="row" style="margin-top: 3%;">
-            <div class="col-md-6">
-       
-            </div>
-            
-            <div class="col-md-6">
-   
-      
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="container-flex container-main text-white my-3">
-        <center><h4 class="title"></h4>
         <hr class="hr-thick"></center>
 
-        <div class="container">
+        <p>Actuellement, les langages de cette première catégorie sont toujours en activités, néanmoins, une infime partie de nouveaux projets font le choix de ces technologies.
+            De plus, les développeurs adeptes des ces technologies sont veillissants, les nouveaux développeurs intéressés se font rares et sont parfois très recherchés (Cobol).
 
-
-   
-        </div>
-    </div>
-
-    <div class="container container-second text-white my-3">
-        <h4 class="title underline"></h4>
-
-        <p class="col-md-5">
-            
+            Finalement, la plupart des autres vieux langages sont toujours d'actualité, bien que des nouvelles technologies font leurs preuves telles que Rust, Golang ou Swift.
         </p>
+
     </div>
+
+
     
     <script>document.write(getComponent('footer.html'))</script>
 </body>

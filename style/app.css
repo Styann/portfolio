@@ -2,6 +2,8 @@ html{
     
     --main-color: #2B2A39;
     --second-color: #232229;
+    
+    /*--main-color: #0e1217;*/
 
     --github-color:#F3C300;
     --email-color: #00AC9F;
@@ -13,6 +15,11 @@ html{
     --purple-one: rgb(197, 81, 255);
     --purple-two: rgba(180, 135, 202, 1);
 }
+
+::selection{
+    background: var(--purple-two);
+}
+
 
 .main-bg-color{
     background-color: var(--main-color);
@@ -111,10 +118,10 @@ body{
     height: 5px;
     width: 0%;
     background-color: var(--purple-one);
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+    /*border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;*/
     z-index: 999;
-    transition: width 400ms ease;
+    transition: width 60ms ease;
 }
 
 .footer-style{
@@ -128,7 +135,7 @@ darkorchid{
 }
 
 .card-custom{
-    border-radius:8%;
+    /*border-radius:8%;*/
     width:fit-content;
     background-color: var(--second-color) !important;
 }
