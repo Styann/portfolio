@@ -1,0 +1,215 @@
+html{
+    
+    --main-color: #2B2A39;
+    --second-color: #232229;
+
+    --github-color:#F3C300;
+    --email-color: #00AC9F;
+    --linkedin-color: #2E6DB4;
+
+    --neon-green-color: #dbff33;
+    --subtext-color: rgba(255, 255, 255, 0.55);
+
+    --purple-one: rgb(197, 81, 255);
+    --purple-two: rgba(180, 135, 202, 1);
+}
+
+.main-bg-color{
+    background-color: var(--main-color);
+}
+
+.second-bg-color{
+    background-color: var(--second-color);
+}
+
+body{
+    font-family: Inter,sans-serif !important;
+    background-color: var(--second-color) !important;
+}
+
+.title{
+    font-weight: 700 !important;
+}
+
+.color-purple-one{
+    color: var(--purple-one);
+}
+
+.color-purple-two{
+    color: var(--purple-two);
+}
+
+.bg-purple-one{
+    background-color: var(--purple-one);    
+}
+
+.bg-purple-two{
+    background-color: var(--purple-two);
+}
+
+
+/* style */
+.subtext{
+    color: var(--subtext-color);
+}
+
+
+.light{
+    font-weight: lighter;
+}
+
+.small{
+    font-size: 10px !important;
+}
+
+.devicon{
+    height: 70px;
+    width: auto;
+    margin: 10px;
+}
+
+
+.navbar-style{
+    background-color: var(--main-color);
+    margin-bottom: 3%;
+    box-shadow: 0 8px 10px -10px rgba(0, 0, 0, 0.99);
+    transition: opacity 400ms ease;
+}
+
+.small-icon-local{
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 32px;
+    height: 32px;
+}
+
+.small-icon{
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 35px;
+    height: 35px;
+}
+
+.github-icon{
+    fill: var(--github-color);
+}
+
+.linkedin-icon{
+    fill:var(--linkedin-color);
+}
+
+.envelope-icon{
+    fill:var(--email-color);
+}
+
+
+.horizontal-scrollbar{
+    position: absolute;
+    display: block;
+    z-index: 1030;
+    bottom: 0%;
+    height: 5px;
+    width: 0%;
+    background-color: var(--purple-one);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 999;
+    transition: width 400ms ease;
+}
+
+.footer-style{
+    height: 200px;
+    margin-top: 8%;
+    background-color: var(--main-color);
+}
+
+darkorchid{
+    color: darkorchid;
+}
+
+.card-custom{
+    border-radius:8%;
+    width:fit-content;
+    background-color: var(--second-color) !important;
+}
+.card-custom hr{
+    margin:0;
+}
+.card-custom p{
+    margin:10px 0 10px 0;
+}
+
+/* event */
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+
+.container-main{
+    background-color: var(--main-color);
+    padding: 2rem 1rem 6rem 1rem;
+}
+
+.container-second{
+    background-color: var(--second-color);
+    padding: 2rem 1rem 6rem 1rem;
+}
+
+.container-attestation{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+.bounce-from-parent:hover > .devicon{
+    animation: bounce 0.5s;
+}
+
+.bounce:hover{
+    animation: bounce 0.5s;
+}
+
+@keyframes bounce{
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+}
+
+
+.underline-hover-effect{
+   display: inline-block;
+}
+.underline-hover-effect:after{
+    display: block;
+    content: '';
+    border-bottom: solid 1px var(--purple-one);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.underline-hover-effect:hover:after{
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+}
+
+.clipboard-button:hover{
+    fill: var(--purple-one);
+}
+
+
+/* responsive */
+@media screen and (max-width: 950px){
+    .devicon{
+        height: 50px;
+    }
+    .sticky-top{
+        position:relative;
+    }
+
+    body{
+        font-size: 85%;
+    }
+
+    .h4{
+        font-size: 30%;
+    }
+
+}

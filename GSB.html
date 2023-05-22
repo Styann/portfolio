@@ -1,0 +1,152 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="script/script.js"></script>
+    <script>document.write(getComponent('base.html'))</script>
+</head>
+
+<body>
+    <script>document.write(getComponent('navbar.html'))</script>
+
+    <div class="container container-second text-white my-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="title underline">GSB <darkorchid>:</darkorchid> Gestion de rapport</h4>
+                <p>Le contexte proposé est celui du laboratoire pharmaceutique GSB.
+                J'ai pu entreprendre ce projet avec 2 personnes le but étant de mettre en place un certain nombre de service définit par un cahier des charge.
+                Le tâche qui m'a été confiée a été de développer un outil de gestion de rapports de visites destiné aux visiteurs médicaux (présentation de nouveaux médicaments à des médecins).</p>
+                
+            </div>
+            <div class="col-md-6">
+                <h5 class="underline">Mes missions</h5>
+                <ul>
+                    <li>
+                        <p>Affichage de tous les rapports</p>
+                    </li>
+                    <li>
+                        <p>Visualisation des rapports</p> 
+                    </li>
+                    <li>
+                        <p>Formulaire de création de rapport</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-flex container-main text-white text-center my-3">
+        <div class="container">
+            <center>
+                <h4 class="title">Langages <script>document.write(languageIcon())</script></h4>
+                <hr class="hr-thick">
+
+                <script>
+                    document.write(divImg({
+                        'csharp.png' : 'C#',
+                        'sql-server.png' : 'SQL Server'
+                    }))
+                </script>
+
+                <hr class="hr-fifty">
+                
+                <h4 class="title">ORM <script>document.write(frameworkIcon())</script></h4>
+                <hr class="hr-thick">
+                <script>
+                    document.write(divImg({
+                        'entity-framework.svg' : 'Entity Framework'
+                    }))
+                </script>
+
+                <hr class="hr-fifty">
+
+                <h4 class="title">Autres outils</h4>
+                <hr class="hr-thick">
+                 <script>
+                    document.write(divImg({
+                        'github.png' : 'GitHub',
+                        'trello.png' : 'Trello'
+                    }))
+                </script>
+            </center>
+        </div>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <center><h4 class="title">Affichage de tous les rapports</h4>
+        <hr class="hr-thick"></center>
+        
+        <center>
+            <img class="img-fluid" src="pictures/GSB/gsb-main.png" alt="">
+            <p>Le projet débute à partir d'une base de données déjà fournie.
+            Ensuite, j'en ai extrai les données pour afficher tous les rapports dans un tableau 
+            grâce à l'outil d'infrastructure d'interface utilisateur pour la création d'applications de bureau Windows, Windows Forms. 
+            </p>
+        </center>
+        <div class="row">
+
+            <div class="col-6">
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-flex container-main text-white my-3">
+        <div class="container">
+            <center><h4 class="title">Visualisation des rapports</h4>
+            <hr class="hr-thick"></center>
+            
+            <center>
+                <img class="img-fluid" src="pictures/GSB/gsb-visualiser-rapport.png" alt="">
+                <p>Ensuite, un utilisateur peut cliquer sur le bouton visualiser pour afficher le rapport en détails.
+                    Travail que j'ai effectué avec Windows Form.</p>
+            </center>
+        </div>
+    </div>
+    
+    <div class="container container-second text-white my-3">
+        <center><h4 class="title">Formulaire de création et de modification de rapport</h4>
+        <hr class="hr-thick"></center>
+        
+        <center>
+            <img class="img-fluid" src="pictures/GSB/gsb-form-rapport.png" alt="">
+            <p>Enfin, la dernière tâche développée fut de permettre la création et la modification de rapport.
+            Les données sont ensuite insérées ou mises à jour dans la base de données à l'aide de l'entity framework,
+            outil qui manipule la base de données depuis le code. Ainsi, l'utilisateur peut créer un rapport via l'interface.
+            </p>
+        </center>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <h4 class="title underline">Bilan</h4>
+
+        <p class="col-md-6">
+        </p>
+
+        <p class="col-md-6">
+            <div class="col-md-6">    
+                <div class="subtext">
+                        <h6>Compétences développées au cours de ce projet: </h6>
+                        <ul>
+                            <li>Répondre aux incidents et aux demandes d'assistance et d'évolution
+                                <ul>
+                                    <li>Collecter, suivre et orienter des demandes</li>
+                                    <li>Traiter des demandes concernant les applications</li>
+                                </ul>
+                            </li>
+
+                            <li>Travailler en mode projet
+                                <ul>Planifier les activités</ul>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </p>
+    </div>
+
+
+
+    
+
+    <script>document.write(getComponent('footer.html'))</script>
+</body>

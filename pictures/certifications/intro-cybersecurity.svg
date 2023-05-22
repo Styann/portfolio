@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg6000"
+   width="1122.52"
+   height="793.70667"
+   viewBox="0 0 1122.52 793.70667"
+   sodipodi:docname="intro-cybersecurity.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6004">
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask6012">
+      <image
+         width="1"
+         height="1"
+         style="image-rendering:optimizeSpeed"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAJ5CAAAAACbfZZVAAAAAXNCSVQI5gpbmQAACCdJREFUeJzt1MEJACAQwDB1/5kPV/AnhWSCvrpnATSc3wEArwwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsIAMwwIyDAvIMCwgw7CADMMCMgwLyDAsIMOwgAzDAjIMC8gwLCDDsICMC1zrBfC3PDL7AAAAAElFTkSuQmCC"
+         id="image6014" />
+    </mask>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6002"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.0671449"
+     inkscape:cx="561.31085"
+     inkscape:cy="397.32187"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-4"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6008">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page6006"
+       width="1122.52"
+       height="793.70667" />
+  </sodipodi:namedview>
+  <g
+     id="g6008"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,793.70667)">
+    <g
+       id="g6010"
+       transform="matrix(75,0,0,37.5,49.5,519.136)">
+      <image
+         width="1"
+         height="1"
+         style="image-rendering:optimizeSpeed"
+         preserveAspectRatio="none"
+         transform="matrix(1,0,0,-1,0,1)"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAJ5CAYAAAC+FsmJAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzt3Vt22zoSBVA5K0PwjDxuz8hzUH+4fe0kepASQJwC9l6rvzo3BkVUoXREOS/n8/l8ApjAy/vHpj93fnvtvBIAgL7MPcBqXgRYQFVbB7d7DHYAQDpzD7A6ARZQTqsB7hJDHQCQxNwD8EmABZTRc4D7yTAHAIxm7gH4kwALiHfUAPc3Ax0AcDRzD8Blv0YvAOCWUUPc6J8NAKzH3ANwnSewgFhJg5RPJQGAnsw9ALcJsIA4SQPcT4Y5AKA1cw/ANr5CCERJHeJOp+y1AQC0ZO4B0giwAHYwzAEAraTPFenrA9YiwAJiGJIAgFWYewD2EWABESoNcZXWCgDkqTRLVForMDcBFjBcxcGo4poBAB5h7gESCLAAAAAOIgwCeIwACxiq8hBXee0AwPEqzw6V1w7MQYAFAAAAQDQBFjDMDJ/kzXANAEB/M8wMM1wDUJcACwAAAIBoAiwAAAAAogmwgCFmegR9pmsBALjF3AOMIsACAADoSOgD8DwBFgAAAADRBFgAAAAARBNgATTgqwEAwCrMPcAIAiwAAAAAogmwgMP51A4AAIA9BFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRfo9eAFzy8v5x9f87v70euBJgJXoPMILeA4yg91CNAIsIt5rnlj+rwQKPeKb36DvAo/Qe4Gh7+s6lP6/3kECAxTB7m+jWv0tzBW5p1XsMdsAePXqPvgPc4v0WsxFgcbiWjfTa36+pAn/Te4ARevaer79b7wH+pvcwIwEWh+n95vHSz9JUAb0HGEHvAUbQe5iZAItDHNlIL/1cTRXWpPcAI+g9wNFG9Z2fP1vvobdfoxfA3F7eP4Y205/rANah9wAj6D3ACCk1n7IO5iXAopu0Bpa2HqCPtFpPWw/QR1qtp60H6COt1tPWw1wEWHSR2rhS1wW0kVrjqesC2kit8dR1AW2k1njquqhPgEVz6Q0rfX3AY9JrO319wGPSazt9fcBj0ms7fX3UJMBiSRoqMILeA4yg98BcqtR0lXVShwCLpio1qUprBW5Tz8AIeg/AbfokLQmwaEZzAkao1nuqrRe4rFotV1svcJlaZmUCLJbmAABG0HuAEfQeqK1qDVddN3kEWDShKQEj6D3ACHoPABxPgMXTqg9x1dcPq6peu9XXD6uqXrvV1w+rql671ddPBgEWAAAAANEEWHDyiQAwht4DANwzy7wwy3UwjgCLp2hCwAh6DzDCLL1nlusAYC0CLAAAAACiCbDg/3waCQAA0I/3XDxDgMXDNB9ghNl6z2zXA7OarVZnux6YlVqFbwIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACI9rvXX/zy/nHz/z+/vfb60QAAhzL3AACrGDX3NAuw7l3AvT9vsAMAqjD3AACrSJl7ngqw9l7E1r/LUAcApDH3AACrSJx7HgqwWl7Irb/fQAcAjGbuAQBWkTz37Aqwel/ItZ9noAMAjmbuAQBWUWHu2fyvEB59MSk/GwBYj7kHAFhFlblnU4CVMEi9vH9ErAMAmFvCvJGwBgBgfgkzx9Y13P0KYcLF/PTy/uHRegCgucSZ53TylUIAoL2Kc8/NJ7DSLuhL6roAAFoz9wAALVWdLa4GWFUvCABgL3MPAMB4t2ayiwFWhSGuwhoBgHwVZooKawQA8lWYKa6t8Z8Aq8LFfKm0VgAgT6VZotJaAYA8lWaJS2vd9K8QJqt0AwCAHBVniIprBgDGqzhD/L3mX7f+TwAAAAAY7b8Aq3J4VXntAMDxKs8OldcOAByv8uzwc+3lv0IIAAAAwNx+nU6107gvM1wDANDfDDPDDNcAAPQ3w8zwdQ2ewAIAAAAgmgALAAAAgGi/Znic7MtM1wIAtDfTrDDTtQAA7c00K7y8f3gCCwAAAIBsAiwAAAAAogmwAAAAAIg2XYA103c8AQAAAJgwwAIAAABY2YwP9wiwAIAlzDjIzXhNAACXCLAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAFjC+e119BKam/GaAIDnzTgjTBdgzXiTAAAAAFY2XYAFAAAAwFwEWDzM027ACHoPMMJsvWe26wFgfgIs+D+DHDCC3gMAXDPbnDDb9XCsXzNtoJmuBQBob6ZZYaZrAQDam2lWOL+9egKL58xUEEAdeg8wgt4DAOMIsOBkIAXG0HuAEfQeqGWWmp3lOhjn1+k0x0aa4RoAgP5mmBlmuAYAoL8ZZoava/AEFk+rXhDV1w+rql671dcPq6peu9XXD6uqXrvV10+G/wKsyhuq8toBgONVnh0qrx0AOF7l2eHn2j2BRRNVC6LquoFPVWu46rqBT1VruOq6gU9Va7jqusnzR4BVcWNVXDMAMF7FGaLimgGA8SrOEH+v+Z8nsCpdVKW1rqDa/ai2XuCyarVcbb2zq3Q/Kq11BdXuR7X1ApdVq+Vq651dpftxaa0Xv0JY6aLIUmXvVFknsE2Vmq6yztVUuC8V1riiKvelyjqBbarUdJV1kufa3in7O7AUQ670e5O+PuAx6bWdvj7gMem1nb4+4DHptZ2+vpVVvjdXA6zki0peG59S71HquoA2Ums8dV18S75HyWvjU+o9Sl0X0EZqjaeui2/J9+jW2m4+gXV+e427sLT1cF3avUpbD9BHWq2nrYfrEu9V4pq4LO1epa0H6COt1tPWw3WJ9+remjZ9hTDlwlLWwXYp9yxlHcAxUmo+ZR1sl/LhXco62CflnqWsAzhGSs2nrIPtUuaNrevY/DuwRl5UyovKY0bfu9E/HxhjdO2P/vk8Z/TcQ12j79/onw+MMbr2R/98nlNl7nk5n8/nvT/g5f1j73/yMIUwF3uH0+nYfXAkey6X3sMzjto/9s589B6+zDj72HO59B6ekTz3PBRg/fcfd7wwhTA3e2dtMw5xp5O9V4HewzPsHx5l7zDj7GPv5dN7eFTq3nkqwPrvL2l0cYpgTfbPemYc4k4ne7AavYdH2Ts8w/5Z04yzjz1Yh77DM5L2T5MA64+/cOfFKQJ+2rN/7J26ZhziTid7sjK9h0eZe3iG3rOOGWcfe7IuvYdHjZ57mgdYAPfMOMSdTg54AOCyGWcfcw9wtM3/CiEAAAAAjCDAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAsAAACAaAIsAAAAAKIJsAAAAACIJsACAAAAIJoACwAAAIBoAiwAAAAAogmwAAAAAIgmwAIAAAAgmgALAAAAgGgCLAAAAACiCbAAAAAAiCbAAgAAACCaAAs43PntdfQSAAAAKESABQAAAEA0ARZAA54qAwBWYe4BRhBgAQAAABBNgAUAAABANAEWAABAR75yB/A8ARYwxEyD3EzXAgBwi7kHGEWABQAAAEA0ARYAAAAA0QRYwDAzPII+wzUAAP3NMDPMcA1AXQIsAAAAAKIJsIChKn+SV3ntAMDxKs8OldcOzEGABQAAAEA0ARYwXMVP9CquGQAYr+IMUXHNwHwEWECESoNRpbUCAHkqzRKV1grMTYAFxDAgAQCrMPcA7CPAAtjBsAkArMLcAyQRYAFRkgel5LUBAPUkzxbJawPW9HI+n8+jFwHwt5f3j9FL+IMhDgDoKWn2MfcAiQRYQLSEYc4QBwAcwdwDcJ0AC4g3apgzwAEARzP3AFwmwALKOHKgM8QBACOZewD+JMACyuk50BngAIAk5h6ATwIsoKxWA53hDQBIZ+4BVifAAqawd6gzvAEAVZl7gBUJsAAAAACI9mv0AgAAAADgFgEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANEEWAAAAABEE2ABAAAAEE2ABQAAAEA0ARYAAAAA0QRYAAAAAEQTYAEAAAAQTYAFAAAAQDQBFgAAAADRBFgAAAAARBNgAQAAABBNgAUAAABANAEWAAAAANF+j14AVPLy/jH055/fXof+fGBto3vgF70QxtejOmRGo+pKPcE2L+fz+Tx6EZBk9ED4KAcf0ErVPviTnsgMqtai+iNZtbpST/BNgMXSqh1gj3DoAfes0Au/6ImkWqEO1R9Hm7Gu1BErE2CxlBkPsUc4+NqbdW/ZK/OZda8+y17naGrxk9qjpRXrSg2xEgEWU1vxEHuEg+95s+41e2MOs+7P3ux/WlKH26g79lBX/1JDzEyAxXQcZM9z8O03676zF+qadU+OpB7YSx0+T93xN3W1nfphNgIspuAg68vhd9+se9C9r2fWvZhGbXCNGuxL7a1LbT1H7TCD36MXAI9yiB3n67V28EEm/RDGUoPHMZOsRW218/O1VD9UJcCiFIcYwDc9EcZSg9CeuupPEExVAixKcJABfNMTYRz1B32oreN5KotqBFhEc5ABfNMTYRz1B32orQyeyqICARaRHGQA3/REGEf9QR9qK5Mgi2QCLKI4yAD+pC/CGGoP+lBbNQiySCTAIoKDDOBfeiMcT91BH2qrJkEWSQRYDOUgA/iX3gjHU3fQh9qaw8v7hxCL4QRYDOEgA7hMf4TjqTvoQ23NxdNYjCbA4nAOMoB/6Y1wPHUHfaituQmyGEWAxWEcZACX6Y9wLDUHfaittfhaIUf7NXoBrMFhBnCZ/gjHUnPQh9pa08v7h3vPYTyBRVeaGcB1eiQcR71BH2qL08nTWBzDE1h04zADuE6PhOOoN+hDbfGTp7HoTYBFcxoXwG16JBxHvUEfaotr7A168RVCmtKsAG7TJ+EYag36UFts4SuF9OAJLJpxmAHcpk/CMdQa9KG22MM3c2hNgEUTGhPAbfokHEOtQR9qi0fZO7TiK4Q8RTMCuE+vhGOoNWhPXdGCrxTSgieweJjDDOA+vRL68zUV6ENd0ZL9xLMEWDxE8wEAEphJoA+1RQ/2Fc8QYLGbpgOwjX4Jfakx6ENt0ZP9xaMEWOyi2QBso19CX2oM+lBbHMFXv3mEAIvNNBgAIIGZBPpQWxzNnmMPARabaCwA2+mZ0I/6gj7UFqPYe2wlwOIuDQUASGAmgT7UFqPZg2whwOImjQRgH30T+lBb0IfaIoW9yD0CLK7SQAD20TehD7UFfagtoBIBFhc5zACABGYS6ENtkci+5BYBFv/QNAD20zuhPXUFfagtktmfXCPA4g+aBQCQwEwCsC5nAJcIsPiPJgHwGP0TgCqcWVRhr/I3ARYAAFG8aYE+1BbV2LP8JMDidDppDABABjMJ9KG2qMre5YsACw0B4Al6KLSjnqAPtQXMQIC1OIcZAAAAybxv5XQSYAEAEMCbE+hDbTELexkB1sI0AIDn6KPQhlqCPtQWs7Gn1/Z79AIYQ+EDkOD89nr3zziz5ub+Qh9qC5iNAGtBDjMAjrAlnGr99zjjAGBuL+8fzWYMahFgAcADBCWXjR4or/189yuT+wJ9qC1mJ8RakwBrMQ4zAFqrMEAKtvJ47aEPtQXMSoAFAOxWIbTa4u/r8MYPAGrwFNZ6BFgLMZQDtLFyP519ULx0fSvf7168ptCH2mI1Qqy1CLAW4TAD4FmrDog/r9t5CgAwxq/RCwAA8q0aXv3t/PbqtXiSEBD6UFusyt5fhyewFqCgx2j1Bsf9A0YT2NCKM20MM8n83BtgBQIseFLvN3a3/n7DCtCb8ArqMJNAHy1qS4305XdhrUGANTmNso+U5uhfzwJ6SelzzMMZ1UdKrZpJxvFat9ejrvwjIfA8ARZskDIc3mN4BIC5mUmgvVF15R8JactTWPMTYE1ME3zODM3PoQhAAmfQc2abSU4ne6IVr+Pj0urK3N6GEGtuAiz4y6wNz6EIbaxQP7P2Qahm5lr8urYVeipZKtSVuR0uE2BNSqPbr8Jh1opDEYCjOGf2M5Owhddrn6p1JeyFbwIsllf1MGvFoQj8tHpPhJFWrz9hFj3MUldm9u18jXBeAqwJaWrbaGp/MjQC0JrzZBszyb+8Wb/N63LfrHV1fnt1/1nWr9ELgBFmPdBaOb+9eo0A4ADO29vMJOy1wp5Z4RqfJeSbkwBrMgr1Ns1+H68XrMc5Qiv20n3O2O3MJN/U1nWr7RF1wWp8hZBlaO6P89oBQDvO1cd57bhm5b3ha4WX+V1Y8/EE1kQ0res0LgAggZmEZ5j3/+UppE9eA1YgwGJ6mjkAHMub7MvMJNCWmvqT1+NfzqO5+Aoh09LAAR7jkXtoSz1Be+rqMv+CJzPzBNYkNKg/OdAAgARmElox739TV/d5jZiRAIvpaNYAz/NGiUfZO9/MJNCeutrOa/XJuTQPARZT0aQB2jHwwePMJNCeutrPa8ZMBFgT8Abjk+YM0J4zBmA8vdis/wyvHbMQYAHADisOgd44sZW98mnFPgE9qSme5XyagwCLKTjUAPoy+ME2ZhJoS0214XVkBgKs4ryh0IwBjuLM4Rb7w0xCH2qLVvQoqhNgUZomDHCsl/cPb6bgAjMJtKeu2lv5NTW/1CfAoqyVmy/AaIIs+GYmgfbUVT9eW6oSYAEADxNkAfSzan8VsACXCLAKW/VAO50cagBpBFlrW/nem0mAilbtXSufVzMQYAHATqsOfVt8BVkGRAAe4Yw9jteaan6PXgDspdEC1PAzxNK7mZF9DQDH8QQWpRgUAWryZBbAPiv2S7P+8bzmVCLAKmrFAw0giYHvccKsuax6H/UAaEtNcZRVz60Z+AohZTjUAObz9xCp1wPAsc5vr0IdShBgAQAx/N4sKrA3oS01BWzhK4SU4FADWI+vGgKr0vc4mvdbVCDAKsiBBpDBsHccYRYp1D20paaArQRYAEApwqwc7gHAPFYKE51fNQmwiLdSIwVgH0EWRzKTAMA4AiwAeII3tBkEWQD1OEOBPQRYAMA0fL0QAB4nVCSZAItoGihQgV6VSZAFVKRvAVwmwAKABoRYuQRZtKDGoS01BewlwCrGAA4Aj3GGAgBfzAX1CLCI5VMZoBp9K5+nsdrxOgLMyTxDKgEWALAcQRZ7eDMHAOMJsACgIW90axFkARzPWQk8QoAFACxPiAUA34SMJBJgAUBjhr6ahFgAALkEWETy5g+oTh+rSYgFAJBJgAUAnQixavJ7sYBR9B6A6wRYAAAXeCPJ6SSIhtbUFPAoARYAdGRQr02IBQCQQYAFAJ0JsWoTYgEAjCfAAoADCLFqE2IBsBqzC2kEWABwEINgbUIsAIBxBFgAcCAhVm1CLACAMQRYAHAwIVZtQiwAgOMJsABgACFWbUIsAIBjCbAAYBAhVm1CLACA4wiwAGCg89urIKswIRYAwDEEWAAQQIgFAADXCbAAIIQQqyZPYQEwI+cbaQRYABDEVwprMuQDAPQlwAKAQEIsAAD4JsACgFCexqrFU1hzcl+hLTUFPEqABQDhhFh1eGMGPEO/B7hOgEUkbwAA/uRpLAAAVibAAoBCBFn5fAgDANCeAAsAChJkAQC9+DCGRAIsAChMkJXJ4A9wnR4JPEKARSwHG8B2gizox0wCAOMJsABgIoKsHLOHHvYZAHAkAVYxhkUAtvgKspwbAMAes38A88WMVI8ACwAmJ8waZ5U3AStwL6EtNQXsJcAimoMNoC1BFkA2PRrgMgEWACzIU1nH8WEMAFU4s0gmwAKAxQmzABhBWALsIcAinoMN4DjCLLjOTAIA4wiwAICLhFncY28AzGOlkN75VZMAqyDFBsDRfoZZzqH9VnpTMDv3EtpSU8BWAixKcLABZBFkAfSjv3I077eoQIAFADzMU1msyBs9aEtNAVsIsCjDwQaQTZAFAPV4n0UVAiwAoClB1mWzvkFY9V7Pej9hFDXFUVY9t2YgwCpq1aJzsAHUIcgCeJz+yRG8v6ISARblaLIAtQiymJWZBNpSU8AtAiwA4BBCLADuEWIdx2tNNQIsStJsAWryNNacVr6nZhKgolV718rn1QwEWIUpPgCqcoYB3Ldqr1w1XAFuE2BRloMNoLZV35gxHzMJtKeu+vHaUpUAi9I0XwAqcW7Ny72F9tRVe15TKhNgUZ4mDFCXp7Dm4V6aSehDbdHK6j1KLdUnwCpOEX5avRkDVOYsYyZmEmhLTbXhdWQGAiwAYDghFjPxRhHaUlM8y5wxBwEW03CwAcBY3iBAH2rLrP8Mrx2zEGBNwIH2TXMGqMt5xkzMJNCeutrPa8ZMBFhMR5MGABKYSaA9dbWd1+qTD8jmIcCahKL8k2YNAGOYSf5kJqEVtfVNXd3nNWJGAiympWkD1OMNGjN6ef8wl0Bjauoy/YaZCbCYmgYOAMcTRF5mJoG21NSfvB7/ch7NRYA1EcV5nWYOUIN+zezscZ5h3v+XD6w/eQ1YgQCLZWjqjzMYALThzSenk5nkGWYSrll5X6x87bc4c+cjwGIpmvs+hkQAHuWNw23O2H28Xt/U1nWr7RF1wWoEWJNxoN2n0d/nNQKAYzhvbzOTsNcqe2aFa3yG98Vz+j16ATDKV9PX3L45CIGR9KD5nN9e3dcNzCT/sm9uU1v3zVpX7jsrE2BNyIG2z6yH21b2CgBkMJOYSWhvlrpSH9tVv9dcJ8CC/5vlcNvKIQjAEXywtp+ZhC3U1j5V68o9hm8CrEk50B5X9XDbwp4AUulP8C8zCbRXpa7UCPxLgAVX/Dw00g89xxDOAAAFlUlEQVS4axx8QAWr9KqqZ0kLPlh7jpmEa9TW49Lqyn1sI+Fe0o8Aa2IOtHbSDrhr3G+gGn0L9vm7Zswl8LxRs74agX0EWLBT0uDo0AMq08PW4oO1PlI+ZHNvx1FbbV16LVvVlvvUV3KgTxsCrMk50Pq79vo66GBeKW8YK9PboD0zCfRh7+czj61BgAWdOOhgDUlPZVagN67NB2tjeM3np7aAFfwavQD682YK4Dgv7x9//I9vXg+Afsz8rMreX4cnsBbhUxmAMXr+Lo0KnD2fVrrn95hJAIBHCLAA4GArhFoCCm4RYkEfaovVzDY/cZsAayEONIBc1UMt5wsAcKRKcxJtCLAWI8QCqONWvx45tDlH9jFgX2YmgT7UFjArARYAFPTIm5NbQYo3O4zgjTb0obaYnQ+H1iTAWpADDWBNev/xDNgA0JazdV2/Ri+AMRQ9AJDATAJ9qC1gNgIsAACACQmxmI09vTYB1sIUPwD045zdzmsF/agvZmEvI8BanCYAACQwkwBwjTOC00mAxUkzAIDWnK2P8bpBH2oLmIEAi9Pp5FADADKYSaAPtUVV9i5fBFgAAETxZgX6UFtUY8/ykwCL/2gOAPA85ykAPM95yt8EWPxBkwAAEphJoA+1RQX2KZcIsPiHZgEAj3GGtuX1hD7UFsnsT64RYHGRpgEA+zg7+/C6Qh9qi0T2JbcIsLhK8wAAEphJoA+1BVQiwOImhxoA3Oe87M9rDH2oLVLYi9zze/QCyHd+ez29vH+MXgYARDJwH8dMAn2oLUZzlrbXs6bv9Yxn7+e1v9sTWGyioQAACcwk0IfaYhR7bz7PhGe3/lsBFptpLADwJ2fjGF536ENtcTR7jj0EWOyiwQDAJ2fiWF5/6ENtcRR7jb0EWOym0QCwOmdhBvcB+lBb9HR+e7XHFvDI1wjv/Td+iTsP8YseAYAEZhLoQ23Rg+DqOFte60s1nnyPPIHFw5I3NgD04vzL455AH2qLluyn9ewJwbf8WQEWT9GEAFiJcy+Xr6RAH2qLFuwhWhBg8TSHGgArcNbV4D5BH2qLR9k7tCLAohmNCYBZOeNqcb+gD7XFXvbMWi7d7y1fDdz6u7gEWDSlQQEwG2dbTe4b9KG22MK3dOjBv0JIc1+Nyr9aAkBlBu/6zCTQh9riFucnvXgCi240LgCqcobNxf2EPtQWP3nqitNp/9cIt3598HQSYNGZJgZANc6tOZlJoA+1xenk7OQYAiwOoaEBUIHzan7uMfShttbl3tPSrf0kwOIwPp0BIJkzah1mEuhDba3F/eaarV8j3Pt79ARYHE6TAyCJAXxd7j30oa7mpncyigCLITQ9ABI4izid7APowbw/J/eUZ9x74ure/vrdcjGwl3+CF4ARDOD8zUwCfaitOTg32ev89rr7Xx+8R4BFBAcbAEcwgHOPmQT6uPdmlkzOTZIIsIhiaASgBwM4e5lJoL2fvVhtZXNu0svL+8fF/bVlzwmwiGRoBKAFAzjPMpNAH2ork3OTlq49eflo3QuwiOZgA+BRhnBaMpNAH2orgzOTkbbuPwEWJXjcGICtDOH0ZCaBPgRZYzgz6a3l778TYFGOww2AvxnAGcFMAu2pq/6cmVQlwKIsn4AexyEHJNKbSGEmOY66X4e6akvtkGrP3hRgMQUHXFsOOCCV/kQ6M0l76h519Tj1Q4JWXyMUYDEdB9xjHG6wnT5zLP2JqvSKx6h5blFX96khZiXAYmoOuMscatDOtXrSc56jTzGbv/e0HvFJrfMMdfVJHVHV3r37cj6fz53WAvFWOeQcapBlld6zhz7F6lbpC2qdI81aV+qIVQmw4IfKh5yDDOZRuRfdo1fBdlV7gTonWbW6Uk/wTYAFOyQceA4x4EtCT7pGr4K+EupfnTOTkTWllmCb/wGL1UuWf5Uz7QAAAABJRU5ErkJggg=="
+         mask="url(#mask6012)"
+         id="image6016" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,131.25,548.57)"
+       style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#727070;fill-opacity:0.9;fill-rule:nonzero;stroke:none"
+       id="text6020"><tspan
+         x="0 8.0039997 14.676 18.011999 22.007999 28.68 35.352001 39.348 42.012001 48.012001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6018">Entreprise</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,131.25,533.308)"
+       style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#727070;fill-opacity:0.9;fill-rule:nonzero;stroke:none"
+       id="text6024"><tspan
+         x="0 8.0039997 14.676 20.676001 23.34 30.011999 32.675999 36.012001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6022">Social e</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,131.25,518.045)"
+       style="font-variant:normal;font-weight:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#727070;fill-opacity:0.9;fill-rule:nonzero;stroke:none"
+       id="text6028"><tspan
+         x="0 8.6639996 15.336 21.336 28.007999 34.68 41.352001 47.352001 54.023998 60.695999 63.360001 66.024002 68.688004 72.024002 78.695999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6026">Responsabilité </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,594.375,529.541)"
+       style="font-variant:normal;font-weight:normal;font-size:15px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#568fec;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6032"><tspan
+         x="0 10.83 14.16 21.66 29.16 37.5 41.669998 52.5 60.84 65.010002 75.839996 84.18 89.175003 96.675003 100.005 108.345 116.685 120.855 130.86 138.36 146.7 155.03999 163.38 175.875"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6030">Cisco Networking Academy</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,499.503)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#aaaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6036"><tspan
+         x="0 7.0035 9.9224997 12.8415 18.679501 23.929501 26.848499 32.686501 35.605499 37.936501 43.774502 49.612499 52.531502 58.369499 64.207497 67.126503 70.045502 72.376503 78.2145 81.133499 86.971497 92.809502 95.7285 98.647499 104.4855 107.982 116.7285 122.5665 125.4855 127.8165 133.6545"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6034">Attestation de fin de formation</tspan></text>
+    <path
+       d="m 45,489.256 h 751.5 l -0.75,-0.75 h -750"
+       style="fill:#000000;fill-opacity:0.67;fill-rule:nonzero;stroke:none"
+       id="path6038" />
+    <path
+       d="m 45,487.756 h 751.5 l -0.75,0.75 h -750"
+       style="fill:#292929;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6040" />
+    <path
+       d="m 796.5,489.256 v -1.5 l -0.75,0.75 v 0"
+       style="fill:#292929;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6042" />
+    <path
+       d="m 45,489.256 v -1.5 l 0.75,0.75 v 0"
+       style="fill:#000000;fill-opacity:0.67;fill-rule:nonzero;stroke:none"
+       id="path6044" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,461.017)"
+       style="font-variant:normal;font-weight:normal;font-size:18px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6048"><tspan
+         x="0 5.0040002 15.012 20.016001 26.01 36.018002 46.026001 56.034 65.033997 70.038002 74.033997 84.042 94.050003 99.054001 104.058 114.066 119.07 132.06599 141.06599 151.07401 161.082 167.076 176.076 186.084 195.084 205.092 211.086 215.082 220.086"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6046">Introduction to Cybersecurity</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,426.839)"
+       style="font-variant:normal;font-weight:normal;font-size:12.8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6052"><tspan
+         x="0 8.5375996 15.6544 22.7712 27.0336 30.591999 37.708801 44.108799 51.225601 54.0672 58.329601 61.888 65.446404 72.563202 76.8256 87.487999 90.329597 97.446404 104.5632 108.1216 110.9632 118.08 121.6384 128.03841 135.1552 142.272 146.53439 152.9344 156.4928 165.73441 168.576 174.976 181.37601 188.4928 192.05119 201.2928 208.40961 211.968 221.20959 228.3264 232.58881 238.9888 241.8304 248.9472 256.064 259.62241 268.16 274.56 281.67679 288.79361 295.9104 306.57281 312.97281 322.4064 325.96481 329.52319 336.64001 340.19839 344.46078 351.57761 358.6944 365.81119 372.21121 375.76959 378.61121 385.728 392.84479 396.4032 399.96161 407.0784 410.63681 419.87839 426.27841 433.3952 440.51199 444.77441 451.17441 458.2912 464.69119 471.80801 476.0704 478.91199 482.4704 488.87039 492.4288 495.98721 503.104 506.66241 510.22079 513.06238 520.1792 523.73761 530.85437 537.97119 542.23358 549.3504 552.90881 555.75043 562.86719 569.26721 572.82562 579.94238 587.0592 590.61761 593.45923 600.57599 607.69281 614.09277 617.65118 624.76801 628.32642 631.88483 634.72638 641.8432 645.40161 652.51837 656.78082 667.44318 674.56 678.11841 680.96002 688.07678 695.1936 701.59363"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6050">Pour avoir terminé le cours Cisco Networking Academy® Introduction to Cybersecurity, et intégré les notions et informations </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,410.05)"
+       style="font-variant:normal;font-weight:normal;font-size:12.8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6056"><tspan
+         x="0 6.4000001 13.5168 16.3584 22.7584 29.8752 36.992001 40.5504 47.667198 54.0672"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6054">suivantes:</tspan></text>
+    <path
+       d="m 62.575,380.355 c 0,0.481 -0.198,0.959 -0.538,1.299 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.34 -0.538,-0.818 -0.538,-1.299 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.539 1.3,-0.539 0.481,0 0.959,0.199 1.299,0.539 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6058" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,68.25,376.011)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6062"><tspan
+         x="0 7.5809999 13.419 19.257 24.507 30.344999 36.182999 39.102001 44.352001 47.271 53.109001 56.028 58.946999 61.278 70.024498 75.862503 81.7005 85.196999 88.115997 93.954002 99.792 105.042 110.88 113.799 119.637 125.475 128.394 130.72501 136.563 139.48199 147.063 152.313 158.151 163.989 167.4855 170.4045 177.408 183.246 188.496 194.334 197.83051 200.1615 203.08051"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6060">Concepts et importance de la Cyber Sécurité</tspan></text>
+    <path
+       d="m 62.575,363.566 c 0,0.481 -0.198,0.959 -0.538,1.3 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.341 -0.538,-0.819 -0.538,-1.3 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.538 1.3,-0.538 0.481,0 0.959,0.198 1.299,0.538 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6064" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,68.25,359.223)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6068"><tspan
+         x="0 7.5809999 13.419 16.915501 22.7535 28.0035 30.922501 36.760502 40.257 42.588001 47.838001 50.757 53.088001 58.925999 64.764 70.601997 75.851997 78.771004 84.609001 87.528 90.446999 92.778 101.5245 107.3625 113.2005 118.4505 121.3695 126.6195 129.5385 135.3765 141.21449 146.46449 149.3835 155.2215 157.55251 160.4715 163.3905 169.2285 172.72501 178.563 184.401 187.32001 192.57001 195.489 198.408 203.658 209.496 215.334 220.584 223.50301 229.341 235.179 238.09801 243.34801 248.59801 254.436 260.27399 263.77051 267.267 273.10501 276.02399 278.94299 284.78101 290.61899 296.457 302.29501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6066">Caractéristiques et impacts des différents types de cyber-attaques</tspan></text>
+    <path
+       d="m 62.575,346.777 c 0,0.482 -0.198,0.96 -0.538,1.3 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.34 -0.538,-0.818 -0.538,-1.3 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.538 1.3,-0.538 0.481,0 0.959,0.198 1.299,0.538 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6070" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,68.25,342.434)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6074"><tspan
+         x="0 7.5809999 13.419 22.165501 30.912001 36.75 42.588001 45.507 48.425999 53.675999 59.514 62.432999 68.271004 71.767502 77.605499 80.524498 86.362503 92.2005 98.038498 101.535 104.454 110.292 116.13 121.38 124.299 129.549 134.799 140.63699 146.47501 149.9715 153.468 159.306 162.22501 165.144 170.98199 176.82001 182.658 188.496"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6072">Comment se protéger des cyber-attaques</tspan></text>
+    <path
+       d="m 443.245,380.355 c 0,0.481 -0.198,0.959 -0.538,1.299 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.34 -0.538,-0.818 -0.538,-1.299 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.539 1.3,-0.539 0.481,0 0.959,0.199 1.299,0.539 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6076" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,448.92,376.011)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6080"><tspan
+         x="0 5.8379998 11.676 16.926001 19.844999 22.764 28.601999 33.852001 39.689999 45.528 47.859001 53.696999 59.535 65.373001 70.623001 73.542 79.379997 82.299004 84.629997 86.960999 89.292 94.542 100.38 106.218 111.468 114.387 120.225 126.063 131.901 135.39751 138.3165 144.1545 147.651 153.489 156.408 162.246 168.084 173.922 177.4185 180.33749 182.6685 188.5065 193.7565 196.67551 202.5135 206.00999 211.84801 217.686 223.524 225.855 231.105 236.94299 239.862 242.19299 248.03101 253.869"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6078">Les techniques utilisées pour protéger les organisations</tspan></text>
+    <path
+       d="m 443.245,363.566 c 0,0.481 -0.198,0.959 -0.538,1.3 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.341 -0.538,-0.819 -0.538,-1.3 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.538 1.3,-0.538 0.481,0 0.959,0.198 1.299,0.538 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6082" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,448.92,359.223)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6086"><tspan
+         x="0 7.0035 12.8415 18.679501 22.176001 28.014 33.852001 39.689999 42.021 44.939999 47.271 53.109001 56.028 61.866001 67.704002 76.4505 82.288498 88.126503 93.9645 99.802498 102.7215 108.5595 114.3975 117.3165 123.1545 126.651 132.489 135.408 141.246 146.496 151.746 154.077 159.91499 165.75301 171.591 177.429 179.75999 185.00999 187.929 193.767 199.605 202.524 204.855 210.69299 213.612 221.19299 226.44299 232.28101 238.119 241.61549 244.5345 251.53799 257.37601 262.62601 268.46399 271.96051 274.2915 277.21051 283.04849 285.9675 291.80551 297.64349 303.48151 312.228 318.06601 323.90399 326.823"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6084">Pourquoi la demande en professionnels de la Cyber Sécurité augmente</tspan></text>
+    <path
+       d="m 443.245,346.777 c 0,0.482 -0.198,0.96 -0.538,1.3 -0.34,0.34 -0.818,0.538 -1.299,0.538 -0.482,0 -0.96,-0.198 -1.3,-0.538 -0.34,-0.34 -0.538,-0.818 -0.538,-1.3 0,-0.481 0.198,-0.959 0.538,-1.299 0.34,-0.34 0.818,-0.538 1.3,-0.538 0.481,0 0.959,0.198 1.299,0.538 0.34,0.34 0.538,0.818 0.538,1.299"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6088" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,448.92,342.434)"
+       style="font-variant:normal;font-weight:normal;font-size:10.5px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6092"><tspan
+         x="0 5.8379998 11.676 16.926001 19.844999 25.094999 30.933001 34.429501 37.348499 39.679501 42.598499 44.929501 50.179501 56.017502 58.936501 61.267502 67.105499 72.943497 78.193497 81.112503 86.9505 92.788498 95.707497 103.2885 108.5385 114.3765 120.2145 123.711 126.63 133.6335 139.4715 144.7215 150.55949 154.056 156.38699 159.306 165.144 168.063 173.901 179.151 181.48199 186.73199 189.651 195.489 201.327 204.246 210.084"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6090">Les certifications de Cyber Sécurité existantes</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,268.762)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6096"><tspan
+         x="0 7.0952001 13.7102 20.687799"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6094">Yann</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,75.917,268.762)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6100"><tspan
+         x="0 7.0560002 11.7404 18.3848 25.3624 32.34 39.072601"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6098">Steunou</tspan></text>
+    <path
+       d="m 45,261.555 h 742.5 v -0.5 H 45"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6102" />
+    <path
+       d="m 45,260.555 h 742.5 v -0.5 H 45"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6104" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,249.066)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6108"><tspan
+         x="0 5.4693999 7.7490001 12.3082 16.867399 18.687799 23.247 27.8062"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6106">Étudiant</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,228.74)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6112"><tspan
+         x="0 6.2426 12.6322 18.4436 25.087999 31.732401 35.142799 42.335999 48.951 53.782398 59.5938 66.326401 73.304001 79.948402 84.632797 88.043198 92.110199 95.520599 103.7232 110.3382 117.3158 122.0002 128.64461"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6110">Lycee Carcouet - Nantes</tspan></text>
+    <path
+       d="m 45,221.533 h 742.5 v -0.5 H 45"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6114" />
+    <path
+       d="m 45,220.533 h 742.5 v -0.5 H 45"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6116" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45,209.044)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6120"><tspan
+         x="0 5.9204001 10.4796 17.3102 19.5898 24.149 28.7082 30.987801 32.808201 34.374401 38.933601 43.0336 47.5928 52.152 56.711201 63.541801 65.362198"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6118">Nom de l'académie</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45.75,184.218)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6124"><tspan
+         x="0 6.6933999 11.5248 18.139799 25.117399 30.928801"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6122">France</tspan></text>
+    <path
+       d="m 45.75,177.011 h 362.649 v -0.5 H 45.75"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6126" />
+    <path
+       d="m 45.75,176.011 h 362.649 v -0.5 H 45.75"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6128" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45.75,164.522)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6132"><tspan
+         x="0 4.5591998 6.3796 10.9388"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6130">Lieu</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,424.149,184.218)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6136"><tspan
+         x="0 6.8207998 13.6416 17.052 24.108 30.752399 37.769199 41.1796 48.000401 54.821201 61.641998"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6134">22 Sep 2022</tspan></text>
+    <path
+       d="M 424.149,177.011 H 786.75 v -0.5 H 424.149"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6138" />
+    <path
+       d="M 424.149,176.011 H 786.75 v -0.5 H 424.149"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6140" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,424.149,164.522)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6144"><tspan
+         x="0 5.9204001 10.4796 12.7592"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6142">Date</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45.75,131.447)"
+       style="font-variant:normal;font-weight:bold;font-size:9.8px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6148"><tspan
+         x="0 7.4675999 14.112 20.726999 25.4114 30.2428 33.604198 39.4156 46.060001 49.470402 57.516201 64.131203 67.492599 74.009598 80.742203 89.797401 95.628403 102.1454"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6146">Beatrice Galkowski</tspan></text>
+    <path
+       d="m 45.75,124.24 h 362.649 v -0.5 H 45.75"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6150" />
+    <path
+       d="m 45.75,123.24 h 362.649 v -0.5 H 45.75"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6152" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,45.75,111.751)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6156"><tspan
+         x="0 2.2795999 6.8388 10.9388 13.2184 15.949 20.5082 24.6082 26.8878 31.447001 36.006199"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6154">Instructeur</tspan></text>
+    <path
+       d="M 424.149,124.24 H 786.75 v -0.5 H 424.149"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6158" />
+    <path
+       d="M 424.149,123.24 H 786.75 v -0.5 H 424.149"
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path6160" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,424.149,111.751)"
+       style="font-variant:normal;font-weight:normal;font-size:8.2px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text6164"><tspan
+         x="0 5.4693999 7.2898002 11.849 16.408199 20.9674 23.247 27.8062 30.5368 35.096001 37.375599 41.934799 46.493999 48.773602 50.594002 52.160198 53.980598 58.539799 62.639801 64.919403 67.650002 72.209198 76.309196 78.588799 83.148003 87.707199"
+         y="0"
+         sodipodi:role="line"
+         id="tspan6162">Signature de l'instructeur</tspan></text>
+  </g>
+</svg>

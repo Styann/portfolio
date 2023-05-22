@@ -1,0 +1,53 @@
+.timeline{
+    /* 18% */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.timeline-element{
+    background-color: var(--second-color);
+    border-left-color: var(--purple-one) !important;
+    position: relative;
+}
+
+.timeline-hover:hover{
+    color: darkgrey;
+}
+
+.timeline-separator{
+    margin: 0;
+    border-top: 3px dotted;
+    width: auto;
+}
+
+.timeline-fade-dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgba(80, 80, 80, 0.500);
+    
+    top: 38%;
+    left: -15px;
+    position: absolute;
+    display: block;
+}
+
+.timeline-dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--purple-one);
+
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    display: block;
+}
+
+.timeline-a{
+    color: unset;
+    text-decoration: none;
+}
+.timeline-a:hover{
+    color: unset;
+}

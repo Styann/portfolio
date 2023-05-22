@@ -1,0 +1,267 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="script/script.js"></script>
+    <script>document.write(getComponent('base.html'))</script>
+</head>
+
+<body>
+    <script>document.write(getComponent('navbar.html'))</script>
+
+    <div class="container container-second text-white my-3">
+        
+        <div class="row">
+            
+            <div class="col-md-6">
+                <h4 class="title underline">Mon stage de première année <darkorchid>:</darkorchid> BTS SIO</h4> 
+         
+                <p>J'ai réalisé ce premier stage chez Digitalusor, une entreprise de prestations informatiques (web/application) de moins de 5 employés située à Saint-Nazaire.</p>
+            
+                <p>Durant la totalité de mon stage, j'ai participé au projet "Garden Party", une plateforme web de location de jardins destinée aux particuliers et aux professionnels dans le but d'organiser des réceptions (mariages, fêtes, banquets).</p>
+                <p>Ce projet était une commande d'une start-up.</p>
+                <p>Le site était en développement lorsque j'ai débuté ce stage et une partie des fonctionnalités était entamée.</p>
+            
+            </div>
+            
+            <div class="col-md-1"></div>
+
+            <div class="col-md-5">
+                <h5 class="underline">Mes missions</h5>
+                <ul>
+                    <li>
+                        <p>La première mission qui m'a été confiée était d'ajouter sur le projet un système de tchat permettant aux utilisateurs de discuter sur la plateforme.
+                            Cette tâche a été la plus longue (un peu moins de 5 semaines).
+                        </p> 
+                    </li>
+                    <li>
+                        <p>La seconde mission qui m'a été confiée fut la mise en place de paiement en ligne grâce à l'API Stripe.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div> 
+
+    </div>
+
+
+    <div class="container-flex container-main text-white my-3">
+        <div class="container">
+            <center>
+                <h4 class="title">Langages <script>document.write(languageIcon())</script></h4>
+                <hr class="hr-thick">
+                <script>
+                    document.write(divImg({
+                        'php.png' : 'PHP',
+                        'javascript.png' : 'JavaScript',
+                        'html.png' : 'html',
+                        'css.png' : 'css',
+                        'mysql.png' : 'MySQL'
+                    }))
+                </script>
+
+                <hr class="hr-fifty">
+
+                <h4 class="title">Frameworks, ORM et Outils</h4>
+                <hr class="hr-thick">
+                <script>
+                    document.write(divImg({
+                        'symfony.png' : 'Symfony',
+                        'doctrine.png' : 'Doctrine',
+                        'twig.png' : 'Twig',
+                        'jquery.png' : 'Jquery'
+                    }))
+                </script>
+
+                <hr class="hr-fifty">
+
+                <h4 class="title">Logiciels</h4>
+                <hr class="hr-thick">
+                <script>
+                    document.write(divImg({
+                        'vscode.png' : 'Visual Studio Code',
+                        'mysql.png' : 'MySQL Workbench',
+                        'sublimemerge.png' : 'Sublime Merge'
+                    }))
+                </script>
+            </center>
+        </div>
+
+    </div>
+
+
+    <div class="container container-second text-white my-3">
+        <center>
+        <h4 class="title">Conception</h4>
+        <hr class="hr-thick"></center>
+
+        <div class="subtext">
+            <h6>Compétences développées :</h6>
+            <ul>
+                <li>Répondre aux incidents et aux demandes d'assistance et d'évolution
+                    <ul>
+                        <li>Collecter, suivre et orienter des demandes</li>
+                        <li>Traiter des demandes concernant les applications</li>
+                    </ul>
+                </li>
+            </ul>           
+        </div>
+
+
+        <p>La première partie du travail a été de comprendre l'arborescence des fichiers du projet Symfony et de leurs contenus. <br>
+        J'ai créé mon MCD (modèle conceptuel de données), puis je l'ai amélioré durant mon stage.</p>    
+
+        <p>Note : le projet contenait des entités que je n'ai pas utilisé donc elles ne sont pas incluses dans le MCD ci-dessous.</p>
+
+        <div class="text-center">
+
+            <p><dot class="bdot"></dot> entités déjà existante &nbsp;&nbsp;&nbsp;&nbsp; 
+            <dot class="gdot"></dot> entités des conversations &nbsp;&nbsp;&nbsp;&nbsp; 
+            <dot class="pdot"></dot> partie liée au paiement</p>
+
+            <div class="overflow-auto my-3">
+                <img src="pictures/graph/mcd.drawio.svg">
+            </div>
+
+            <hr>
+
+            <p><dot class="bdot"></dot> classes déjà existante &nbsp;&nbsp;&nbsp;&nbsp; 
+                <dot class="gdot"></dot> classes liées conversations</p>
+
+            <div class="overflow-auto my-3">
+                <img src="pictures/graph/ddc.drawio.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-flex container-main text-white my-3">
+        <div class="container">
+            <center><h4 class="title">Première mission : création d'un système de tchat</h4>
+            <hr class="hr-thick"></center>
+            
+            <div class="subtext">
+                <h6>Compétences développées :</h6>
+                <ul>
+                    <li>Répondre aux incidents et aux demandes d'assistance et d'évolution
+                        <ul>
+                            <li>Collecter, suivre et orienter des demandes</li>
+                            <li>Traiter des demandes concernant les applications</li>
+                        </ul>
+                    </li>
+                    <li>Développer la présence en ligne de l'organisation
+                        <ul>
+                            <li>Participer à l'évolution d'un site Web exploitant les données de l'organisation.</li>
+                        </ul>
+                    </li>
+                    <li>Mettre à disposition des utilisateurs un service informatique
+                        <ul>
+                            <li>Déployer un service</li>
+                        </ul>
+                    </li>
+
+                </ul>           
+            </div>
+
+            <p>J'ai développé cette fonctionnalité en ayant des réunions de concertations régulières avec mon superviseur afin de faire le point aux différentes étapes du projet.</p>
+    
+            <p>Le système a pour but de mettre en relation les potentiels clients avec les annonceurs (propriétaire de jardin).</p>
+    
+            Cheminement pour accéder au tchat : 
+            <p>Une fois que le potentiel client est intéressé par une annonce, il lui est possible de cliquer sur le bouton "contacter" 
+                afin de créer une conversation avec le propriétaire de l'annonce pour obtenir des informations complémentaires.</p>
+                
+            <script> document.write(carousel('carousel-ad', ['pictures/capture/ad.png', 'pictures/capture/adOwner.png'])) </script>
+
+            <p>Ensuite, les utilisateurs (client et propriétaire) peuvent écrire et envoyer des messages grâce à la méthode asynchrone AJAX 
+             (AJAX permet de communiquer avec le serveur à l'aide de code JavaScript en arrière-plan pendant que la page est affichée à l'écran)
+             ce qui a l'avantage d'apporter de l'interactivité avec la page sans avoir à la recharger.</p>
+    
+            <p>Les utilisateurs (client et propriétaire) peuvent également recevoir les messages en temps réel toujours via une méthode asynchrone
+             AJAX qui s'exécute continuellement sur l'environnement client.</p>
+
+            <script>document.write(carousel('carousel-conversation', ['pictures/capture/chatSender.png', 'pictures/capture/chatRecever.png']))</script>
+            
+        </div>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <center><h4 class="title">Service de Mailing</h4>
+        <hr class="hr-thick"></center>
+
+        <div class="row">
+            <div class="col-md-7">
+                <p>Après avoir finalisé le système de conversation, j'ai développé un service de mailing (envoie de mails automatiques) qui s'exécute dans les deux cas suivants :</p>
+                <ul>
+                    <li>Avertir le propriétaire d'une nouvelle création de conversation.</li>
+                    <li>Avertir les utilisateurs de nouveaux messages non lus.</li>
+                </ul>
+                <p>En parallèle, j'ai mis en place un cron sur le serveur permettant d'exécuter un script toutes les heures. Celui-ci envoie un email aux utilisateurs ayant de nouveaux messages non-lus.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="subtext">
+                    <h6>Compétences développées :</h6>
+                    <ul>
+                        <li>Mettre à disposition des utilisateurs un service informatique
+                            <ul>
+                                <li>Déployer un service</li>
+                            </ul>
+                        </li>
+        
+                    </ul>           
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-flex container-main text-white my-3">
+        <div class="container">
+            <center><h4 class="title">Deuxième mission : Stripe</h4>
+            <hr class="hr-thick"></center>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Cette deuxième mission avait pour but de mettre en place la réservation et le paiement des annonces à l'aide de l'API (Application Programming Interface)
+                    de paiements en ligne Stripe en PHP.
+                    Dans cette première version, le système de paiement permet à un utilisateur de rentrer ses coordonnées bancaires, ensuite les fonds sont redirigés sur le compte Stripe de "Garden Party".
+                    Stripe et "Garden Party" prennent leurs commissions, enfin, les fonds restant sont virés sur le compte Stripe du propriétaire de l'annonce.
+                    Je n'ai pu finaliser cette tâche au cours de mon stage par contrainte de temps.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="subtext">
+                        <h6>Compétences développées :</h6>
+                        <ul>
+                            <li>Développer la présence en ligne de l'organisation
+                                <ul>
+                                    <li>Participer à l'évolution d'un site Web exploitant les données de l'organisation.</li>
+                                </ul>
+                            </li>
+                            <li>Mettre à disposition des utilisateurs un service informatique
+                                <ul>
+                                    <li>Déployer un service</li>
+                                </ul>
+                            </li>
+                        </ul>           
+                    </div>
+                </div>
+
+            </div>
+         
+
+        </div>
+    </div>
+
+
+
+    <div class="container container-second text-white my-3">
+        <h4 class="title underline">Bilan</h4>
+
+        <p class="col-md-5">Pour conclure, je dirais que je suis extrêmement satisfait de ce stage, mon superviseur était très clair dans ses explications,
+             il m'a permis de mieux comprendre certains concepts comme le Modèle Vue Contrôleur avec le framework Symfony notamment et de découvrir l'asynchrone.
+             Ce stage m'a permis également de développer mes compétences générales de programmation en milieu professionnel et de travailler au sein d'une équipe.
+        </p>
+    </div>
+
+    <script>document.write(getComponent('footer.html'))</script>
+</body>

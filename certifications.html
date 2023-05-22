@@ -1,0 +1,100 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="script/script.js"></script>
+    <script>document.write(getComponent('base.html'))</script>
+</head>
+
+<body>
+    <script>document.write(getComponent('navbar.html'))</script>
+    
+    <section id="secnum" class="container-flex container-attestation  href-scroll container-second text-white my-3">
+        <center>
+            <h4 class="title">ANSSI : SecNum Académie</h4>
+
+            <hr class="hr-thick">
+            <br>
+            <img class="attestation" src="pictures/certifications/secnum.svg" alt="">
+        </center>
+    </section>
+
+    <section id="ndg-linux" class="container-flex container-attestation  href-scroll container-main text-white my-3">
+        <center>
+            <h4 class="title">Cisco : NDG Linux Unhatched</h4>
+
+            <hr class="hr-thick">
+            <br>
+            <img class="attestation" src="pictures/certifications/NDG-linux.svg" alt="">
+        </center>
+    </section>
+
+    <section id="intro-cyber" class="container-flex container-attestation  href-scroll container-second text-white my-3">
+        <center>
+            <h4 class="title">Cisco : Introduction to Cybersecurity</h4>
+            
+            <hr class="hr-thick">
+            <br>
+            <img class="attestation" src="pictures/certifications/intro-cybersecurity.svg" alt="">
+        </center>
+    </section>
+
+    <section id="js-essentials" class="container-flex container-attestation  href-scroll container-main text-white my-3">
+        <center>
+
+            <h4 class="title">Cisco : Javascript Essentials 1</h4>
+            <hr class="hr-thick">
+            <br>
+            <img class="attestation" src="pictures/certifications/jse1.svg">
+        </center>
+    </section>
+
+    <section id="cpp-essentials" class="container-flex container-attestation  href-scroll container-second text-white my-3">
+        <center>
+            <h4 class="title">C++ institue : CPA Programming Essentials in C++</h4>
+
+            <hr class="hr-thick">
+            <br>
+            <img class="attestation" src="pictures/certifications/CPA-cpp.svg">
+        </center>
+
+    </section>
+
+    <style>
+        .attestation{
+            width: 42%;
+            height: auto;
+            background-color: white;
+            transition: transform .1s;
+        }
+    
+        .href-scroll{
+            scroll-margin-top: 150px;
+            scroll-behavior: smooth;
+    
+        }
+    </style>
+    
+    <script>
+            document.addEventListener('scroll', minimizeAll);
+            const elements = document.getElementsByClassName('attestation');
+            for(let i=0; i<elements.length; i++){
+                elements[i].addEventListener('click', maximizeOrMinimize);
+            }
+    
+    
+            function maximizeOrMinimize(){
+                this.style.transform = (this.style.transform.length == 0)? 'scale(1.5)': null;
+                for(let i=0; i<elements.length; i++){
+                    if(elements[i] !== this) elements[i].style.transform = null;
+                }
+            }
+    
+            function minimizeAll(){
+                for(let i=0; i<elements.length; i++){
+                    elements[i].style.transform = null;
+                }
+            }
+    </script>
+    
+    
+    <script>document.write(getComponent('footer.html'))</script>
+</body>

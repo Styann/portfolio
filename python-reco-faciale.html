@@ -1,0 +1,252 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="script/script.js"></script>
+    <script>document.write(getComponent('base.html'))</script>
+</head>
+
+<body>
+    <script>document.write(getComponent('navbar.html'))</script>
+
+    <div class="container container-second text-white my-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="title underline">Kaliémie <darkorchid>:</darkorchid> Reconnaissance faciale</h4>
+                <p>Au cours de ma formation en BTS SIO afin de mettre en pratique mes compétences en programmation
+                    , j'ai réalisé une application de connexion sécurisée en plusieurs étapes.
+                </p>
+
+                <h5 class="underline">Contexte de développement</h5>
+                <p>La société médicale Kaliémie est spécialisée dans la visite médicale de patients par des infirmières. La
+                société souhaite posséder une solution d'authentification multiple afin de protéger un coffre-fort.</p>
+                
+            </div>
+            <div class="col-md-6">
+                <h5 class="underline">Mes missions</h5>
+                <ul>
+                    <li>
+                        <p>Réalisation d'un formulaire de login</p> 
+                    </li>
+                    <li>
+                        <p>Lecture de badge NFC (Near-Field Communication)</p>
+                    </li>
+                    <li>
+                        <p>Détection & reconnaissance faciale</p>
+                    </li>
+                    <li>
+                        <p>Historisation des connexions</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-flex container-main text-white text-center my-3">
+        <div class="container">
+            <center>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        
+                        <h4 class="title">Langages <script>document.write(languageIcon())</script></h4>
+                        <hr class="hr-thick">
+                        <script>
+                            document.write(divImg({
+                                'python.png' : 'Python',
+                                'sqlite.png' : 'SQLite 3'
+                            }))
+                        </script>
+
+                        <hr class="hr-fifty">
+
+                        <h4 class="title">Outil de versionning</h4>
+                        <hr class="hr-thick">
+                        <script>
+                            document.write(divImg({
+                                'github.png' : 'GitHub'
+                            }))
+                        </script>
+                        
+
+                    </div>
+                    <div class="col-md-5">
+                        
+                        <h4 class="title">Librairies <script>document.write(frameworkIcon())</script></h4>
+                        <hr class="hr-thick">
+                        <script>
+                            document.write(divImg({
+                                'opencv.png' : 'OpenCV'
+                            }))
+                        </script>
+
+                        <hr class="hr-fifty">
+
+                        <h4 class="title">Ressources physiques <script>document.write(boltIcon())</script></h4>
+                        <hr class="hr-thick">
+                        <script>
+                            document.write(divImg({
+                            'raspberry-pi.png' : 'Raspberry pi & caméra',
+                            'rfid-reader.png' : 'Lecteur NFC',
+                            'microbit.png' : 'Carte Microbit'
+                            }))
+                        </script>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                </div>
+
+
+
+            </center>
+        </div>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <center><h4 class="title">Phase 1 : Login</h4>
+        <hr class="hr-thick"></center>
+        
+        <div class="row">
+            <div class="col-6">
+                <center>
+                    <img class="img-fluid" src="pictures/reco-faciale/login.png" alt="">
+                </center>
+            </div>
+            <div class="col-6">
+                <p>Dans cette première partie, j'ai développé une interface de connexion utilisant l'API d'identification réalisée par notre professeur.
+                    Le formulaire a été mis en place avec la librairie python Tkinter.</p>
+                    
+                <p>Dans cette première phase l'utilisateur doit renseigner ses identifiants (fournis par le service informatique de la société médicale)
+                    pour s'authentifier.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-flex container-main text-white my-3">
+        <center><h4 class="title">Phase 2 : Lecture de badge NFC</h4>
+        <hr class="hr-thick"></center>
+        
+        
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <center>
+                        <img class="img-fluid" src="pictures/reco-faciale/badgeWait.png" alt="">
+                    </center>  
+                </div>
+                <div class="col-md-6">
+                    <p>Dans cette deuxième partie, l'authentification se fait à l'aide d'un badge NFC (Near-Field Communication),
+                        pour celà j'ai utilisé un lecteur de badge RFID branché sur le Raspberry. 
+                        Le système de badge fonctionne avec la même API que dans la phase précédente,
+                        mais l'authentification se fait avec l'identifiant et le numéro du badge (un badge est affecté à un utilisateur).
+                    </p>
+                </div>
+            </div>
+                
+            <div class="row" style="margin-top: 3%;">
+                <div class="col-md-6">
+                    <center>
+                        <img class="img-fluid" src="pictures/reco-faciale/badge.png" alt="">
+                    </center>
+                </div>
+                <div class="col-md-6">
+                    <p>Donc, pour accéder à la phase suivante, l'utilisateur doit présenter son badge sur le lecteur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <center><h4 class="title">Phase 3 : détection & reconnaissance faciale</h4>
+        <hr class="hr-thick"></center>
+
+        <div class="row">
+            <div class="col-md-6">
+                <center>
+                    <img class="img-fluid" style="width: 480px; height:auto;" src="pictures/reco-faciale/face-recognition.png" alt="">
+                </center>
+            </div>
+            
+            <div class="col-md-6">
+                <p>La dernière phase d'authentification utilise la reconnaissance faciale à l'aide de la librairie OpenCV
+                    (une bibliothèque libre, initialement développée par Intel, spécialisée dans le traitement d'images en temps réel).
+                    
+                    Pour reconnaître un visage, le programme doit posséder les photos de l'utilisateur.
+                    Ensuite le programme créé un fichier contenant les données du visage.
+                    Enfin, le dispositif peut reconnaître le visage en s'appuyant sur l'algorithme LBPH (Local Binary Patterns Histograms).
+                </p>
+    
+            </div>
+        </div>
+    
+        <div class="row" style="margin-top: 3%;">
+            <div class="col-md-6">
+                <center>
+                    <img src="pictures/reco-faciale/chest-open.png" alt="" >
+                </center>
+            </div>
+            
+            <div class="col-md-6">
+   
+                <p>Pour accéder au coffre-fort, l'utilisateur doit présenter son visage devant la caméra et il doit être reconnu au moins 30 fois.
+                    L'utilisateur doit au préalable avoir pris une trentaine de photos.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-flex container-main text-white my-3">
+        <center><h4 class="title">Historisation des connexions</h4>
+        <hr class="hr-thick"></center>
+
+        <div class="container">
+            <p>Finalement, ma dernière tâche fut d'historiser en base de données toutes les tentatives de connexion (abouties ou échouées).
+                Ce dispositif permet de remonter les événements d'un utilisateur en cas de problème et d'analyser les comportements utilisateurs.
+            </p>
+
+            <div class="row" style="padding-left: 20%; padding-right:20%;">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="pictures/reco-faciale/microbit-check.jpg" alt="">
+                    <p>Affichage sur le Microbit en cas de tentative réussi.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="pictures/reco-faciale/microbit-cross.jpg" alt="">
+                    <p>Affichage sur le Microbit en cas de tentative échouée.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-second text-white my-3">
+        <h4 class="title underline">Bilan</h4>
+
+        <div class="row">
+            <div class="col-md-6" style="padding-right:10%;">
+                <p>
+                    Ce projet était très intéressant car il m'a permis d'interagir avec des périphériques physiques tels que la caméra, le lecteur de badge et le microbit.
+                    De plus, travailler sur de la reconnaissance faciale semblait inaccessible, mais la librairie OpenCV rend la tâche plus abordable.
+                </p>
+            </div>
+    
+          
+            <div class="col-md-6">    
+                <div class="subtext">
+                        <h6>Compétences développées au cours de ce projet: </h6>
+                        <ul>
+                            <li>Répondre aux incidents et aux demandes d'assistance et d'évolution
+                                <ul>
+                                    <li>Collecter, suivre et orienter des demandes</li>
+                                    <li>Traiter des demandes concernant les applications</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script>document.write(getComponent('footer.html'))</script>
+</body>
