@@ -95,7 +95,7 @@ function timelineElement(date, name, href = null){
     var hover = null;
     if(href){
         hover = 'timeline-hover';
-        href = `href='$href'`;
+        href = `href=${href}`;
     }   
 
     return `<a ${href} class='timeline-a'>
