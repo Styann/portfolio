@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--main-color);
+    color: var(--slight-color);
+
+    padding-top: 50px;
+    height: 140px;
+
+    display: grid;
+    place-items: center;
+}
+
+.footer-credit{
+    font-size: small;
+}
+

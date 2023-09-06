@@ -1,0 +1,44 @@
+nav{
+    background-color: var(--main-color);
+    color: white;
+    height: 80px;
+    padding: 5px 140px; 
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon-wrapper{
+    display: grid;
+    place-items: center;
+    width: 36px;
+}
+
+.nav-icon{
+    width: 36px;
+    height: 36px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    
+    display: flex;
+}
+
+.nav-menu li{
+    padding:0 10px;
+    display: grid;
+    place-items: center;
+}
+
+.nav-item{
+    font-size: small;
+    transition: 500ms;
+}
+.nav-item:hover{
+    color: var(--slight-color);
+}

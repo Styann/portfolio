@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steunou Yann</title>
+    <link rel="icon" href="pictures/icon/logo-v2.svg">
+    
+    <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
+    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <script src="index.js"></script>
+</head>
+
+
+
+<body>
+    <nav>
+
+        <a href="index.html" class="nav-icon-wrapper">
+            <img src="pictures/icon/logo-v2.svg" alt="logo" class="nav-icon cursor-pointer">
+        </a>
+
+        <ul class="nav-menu">
+            <li>
+                <a class="nav-item cursor-pointer">Accueil</a>
+            </li>
+            <li>
+                <a class="nav-item cursor-pointer">Profil</a>
+            </li>
+            <li>
+                <a class="nav-item cursor-pointer">Compétences</a>
+            </li>
+            <li>
+                <a class="nav-item cursor-pointer">Portfolio</a>
+            </li>
+            <li>
+                <a class="nav-item cursor-pointer">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section class="reception">
+        <div>
+            <center>
+                <h1 class="my-name">Steunou Yann</h1>
+                <h2>Développeur Full Stack - Étudiant</h2>
+            </center>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <center>
+            <h2 class="section-title">À PROPOS DE MOI</h2>
+        </center>
+
+        <div class="about-me-grid">
+            <div class="profile-img-wrapper">
+                <img src="pictures/pdp.jpg" alt="" class="about-me-img">
+            </div>
+
+            <div class="about-me-text-wrapper">
+                <p class="about-me-text">
+                    Je suis Steunou Yann, j'ai 20 ans et je suis étudiant en développement informatique.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <form method="get" action="SteunouYannCV.pdf">
+                    <button class="cv-btn cursor-pointer" type="submit">Télécharger mon CV</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <center><h2 class="section-title">Parcours</h2></center>
+    </section>
+
+    <section class="contact">
+        <center>
+            <h2 class="section-title">ME CONTACTER</h2>
+        </center>
+
+        <div class="contact-grid">
+            <div class="contact-form">
+                <form action="">
+                    <input id="name" type="text" class="contact-field" placeholder="Votre nom" required>
+                    <input id="email" type="text" class="contact-field" placeholder="Votre email" required>
+                    <input id="object" type="text" class="contact-field" placeholder="objet" required>
+                    <textarea id="content" rows="5" class="contact-field" placeholder="Votre message" required></textarea>
+                    <button type="submit" class="contact-form-btn">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="contacts">
+                <p class="my-email"></p>
+
+                <span class="dot cursor-pointer"  onclick="GoToGitHub()">
+                    <img class="social-icon" src="pictures/icon/github.png" alt="">
+                </span>
+
+                <span class="dot cursor-pointer" onclick="GoToLinkedIn()">
+                    <img class="social-icon" src="pictures/icon/linkedin.png" alt="" >
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-credit">All rights reserved by &#169;Steunou Yann 2023</p>
+    </footer>
+</body>
+</html>

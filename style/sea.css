@@ -1,0 +1,29 @@
+.sky{
+    background-color: rgb(59, 59, 151);
+    position: absolute;
+    top: 0;
+    height: 60%;
+    width: 100%;
+    z-index: -100;
+}
+
+.sea{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    z-index: -98;
+}
+
+.moon{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    background-color: #F6F1D5;
+    border-radius: 50%;
+    z-index: -99;
+}

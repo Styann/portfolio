@@ -1,0 +1,205 @@
+html{
+    --main-color: #1c1833;
+    --second-color:#231e3d;
+
+    --slight-color: #6c757d;
+
+}
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* GENERAL */
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+
+
+
+/* GENERAL SECTION */
+.section-title{
+    margin-bottom: 80px;
+}
+
+/* RECEPTION */
+.reception{
+    height: 500px;
+    width: 100%;
+
+    background-color: var(--second-color);
+    color: white;
+
+    display: grid;
+    place-items: center;
+}
+
+.my-name{
+    font-size: 400%;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+    background: rgb(197,81,255);
+    background: linear-gradient(90deg, rgba(197,81,255,1) 30%, rgba(81,255,218,1) 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ABOUT ME */
+.about-me{
+    height: 500px;
+
+    background-color: var(--second-color);
+    color: white;
+
+    padding: 80px 120px;
+}
+
+.about-me-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.profile-img-wrapper{
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    place-items: center;
+}
+
+.about-me-text-wrapper{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    place-items: start center;
+}
+
+.about-me-text{
+    line-height: 1.7em;
+}
+
+.about-me-img{
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-4deg);
+    filter: hue-rotate(40deg);
+    transition: 500ms;
+}
+.about-me-img:hover{
+    transform: rotate(0);
+    filter: hue-rotate(0);
+}
+
+.cv-btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: darkorchid;
+    border: 0;
+    border-radius: 4px;
+    transition: 200ms;
+}
+
+.cv-btn:hover{
+    opacity: 0.84;
+}
+
+/* CONTACT SECTION */
+.contact{
+    height: 500px;
+    background-color: var(--second-color);
+    color: white;
+
+    padding: 80px 120px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.contact-form{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.contacts{
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: end;
+}
+
+.my-email{
+    color:var(--slight-color);
+}
+.my-email::after{
+    content: "steunouyannpro@gmail.com";
+}
+
+.dot{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    float: right;
+
+    margin: 0 5px;
+
+    transition: 400ms;
+}
+
+.social-icon{
+    height: 34px;
+    width: 34px;
+    margin: 4px;
+}
+
+
+.dot:hover{
+    filter: invert(1);
+}
+
+.contact-field{
+    border: 0;
+
+    width: 99%;
+    height: 40px;
+    margin: 8px 0;
+    background-color: var(--main-color);
+    color: white;
+    outline: none;
+
+    padding: 0;
+    padding-left: 1%;
+}
+
+.contact-form textarea{
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form-btn{
+    height: 50px;
+    width: 100%;
+    border: 0;
+    margin: 8px 0;
+    background-color: darkorchid;
+}
+.contact-form-btn:hover{
+    opacity: 0.84;
+}
+
+/* EXPERIENCE */
+.experience{
+    height: 500px;
+    background-color: var(--second-color);
+    color: white;
+
+    padding: 80px 120px;
+}
