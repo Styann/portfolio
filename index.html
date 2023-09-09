@@ -10,24 +10,28 @@
     <link rel="stylesheet" href="style/app.css">
     <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/timeline.css">
+
     <script src="index.js"></script>
 </head>
 
 
 
 <body>
-    <nav>
-
+    <nav id="nav">
         <a href="index.html" class="nav-icon-wrapper">
             <img src="pictures/icon/logo-v2.svg" alt="logo" class="nav-icon cursor-pointer">
         </a>
 
         <ul class="nav-menu">
             <li>
-                <a class="nav-item cursor-pointer">Accueil</a>
+                <a class="nav-item cursor-pointer" href="#reception">Accueil</a>
             </li>
             <li>
-                <a class="nav-item cursor-pointer">Profil</a>
+                <a class="nav-item cursor-pointer" href="#about-me">Profil</a>
+            </li>
+            <li>
+                <a class="nav-item cursor-pointer" href="#experience">Parcours</a>
             </li>
             <li>
                 <a class="nav-item cursor-pointer">Compétences</a>
@@ -36,22 +40,49 @@
                 <a class="nav-item cursor-pointer">Portfolio</a>
             </li>
             <li>
-                <a class="nav-item cursor-pointer">Contact</a>
+                <a class="nav-item cursor-pointer" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
 
+    <a class="dot-go-begin" id="dot-go-begin" href="#">
+        <span class="arrow-top"></span>
+    </a>
+    <script>
+        const dotgobegin = document.getElementById('dot-go-begin');
+        const navbar = document.getElementById('nav');
 
-    <section class="reception">
-        <div>
-            <center>
-                <h1 class="my-name">Steunou Yann</h1>
-                <h2>Développeur Full Stack - Étudiant</h2>
-            </center>
-        </div>
+        document.addEventListener('scroll', function(event) {
+            var scrollPercentage = Math.round((window.scrollY / (document.body.offsetHeight - window.innerHeight)) * 100);
+            
+
+            dotgobegin.style.bottom = (scrollPercentage == 0) ? '-5%' : '5%';
+
+            if(scrollPercentage == 0){
+                navbar.classList.remove('scrolled');
+            }else{
+                navbar.classList.add('scrolled');
+            }
+        });
+    </script>
+
+    <section id="reception" class="reception">
+
+        <span class="planet-wrapper">
+
+        </span>
+        <span class="shooting-star"></span>
+        <span class="shooting-star"></span>
+        <span class="shooting-star"></span>
+        <span class="planet"></span>
+
+        <center>
+        <h1 class="my-name">Steunou Yann</h1>
+        <h2 class="job">Développeur Full Stack - Étudiant</h2>
+        </center>
     </section>
 
-    <section class="about-me">
+    <section id="about-me" class="about-me">
         <center>
             <h2 class="section-title">À PROPOS DE MOI</h2>
         </center>
@@ -59,6 +90,7 @@
         <div class="about-me-grid">
             <div class="profile-img-wrapper">
                 <img src="pictures/pdp.jpg" alt="" class="about-me-img">
+                <div class="test"></div>
             </div>
 
             <div class="about-me-text-wrapper">
@@ -71,17 +103,23 @@
                 </p>
 
                 <form method="get" action="SteunouYannCV.pdf">
-                    <button class="cv-btn cursor-pointer" type="submit">Télécharger mon CV</button>
+                    <button class="purple-btn cursor-pointer" type="submit">Voir mon CV</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <section class="experience">
+    <section id="experience" class="experience">
         <center><h2 class="section-title">Parcours</h2></center>
+
+        <div class="timeline-element">
+            <p style="font-weight: bold;">BTS SIO option SLAM</p>
+            <div class="timeline-hr"></div>
+            <p>2890</p>
+        </div>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <center>
             <h2 class="section-title">ME CONTACTER</h2>
         </center>
@@ -93,20 +131,21 @@
                     <input id="email" type="text" class="contact-field" placeholder="Votre email" required>
                     <input id="object" type="text" class="contact-field" placeholder="objet" required>
                     <textarea id="content" rows="5" class="contact-field" placeholder="Votre message" required></textarea>
-                    <button type="submit" class="contact-form-btn">Envoyer</button>
+                    <button type="submit" class="purple-btn cursor-pointer" style="width:100%; border-radius:0;">Envoyer</button>
                 </form>
             </div>
 
             <div class="contacts">
-                <p class="my-email"></p>
+                <p>
+                    <a id="my-email" class="my-email cursor-pointer" href="mailto:steunouyannpro@gmail.com"></a>
+                </p>
 
-                <span class="dot cursor-pointer"  onclick="GoToGitHub()">
-                    <img class="social-icon" src="pictures/icon/github.png" alt="">
-                </span>
-
-                <span class="dot cursor-pointer" onclick="GoToLinkedIn()">
+                <button class="dot cursor-pointer" onclick="GoToLinkedIn()">
                     <img class="social-icon" src="pictures/icon/linkedin.png" alt="" >
-                </span>
+                </button>
+                <button class="dot cursor-pointer"  onclick="GoToGitHub()">
+                    <img class="social-icon" src="pictures/icon/github.png" alt="">
+                </button>
             </div>
         </div>
     </section>

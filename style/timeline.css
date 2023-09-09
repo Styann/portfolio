@@ -1,0 +1,29 @@
+.timeline-element{
+    height: auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.timeline-hr{
+    height: 4px;
+    background-color: darkorchid;
+    margin: 6% 0;
+}
+
+
+
+
+.timeline-dot{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: darkorchid;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.timeline-element-date{
+    position: relative;
+}

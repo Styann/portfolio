@@ -1,11 +1,19 @@
 nav{
-    background-color: var(--main-color);
-    color: white;
-    height: 80px;
-    padding: 5px 140px; 
-
+    height: 90px;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    top: 0;
+    padding: 5px 140px;
+    
+    background-color: var(--main-color);
+    color: white;
+    transition: 500ms;
+}
+nav.scrolled{
+    transform: translate(0, -90px);
 }
 
 .nav-icon-wrapper{
