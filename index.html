@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steunou Yann</title>
-    <link rel="icon" href="pictures/icon/logo-v2.svg">
+    <link rel="icon" href="assets/icons/logo-v2.svg">
     
-    <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
-    <link rel="stylesheet" href="style/app.css">
     <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/app.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/timeline.css">
 
@@ -20,7 +19,7 @@
 <body>
     <nav id="nav">
         <a href="index.html" class="nav-icon-wrapper">
-            <img src="pictures/icon/logo-v2.svg" alt="logo" class="nav-icon cursor-pointer">
+            <img src="assets/icons/logo-v2.svg" alt="logo" class="nav-icon cursor-pointer">
         </a>
 
         <ul class="nav-menu">
@@ -34,10 +33,10 @@
                 <a class="nav-item cursor-pointer" href="#experience">Parcours</a>
             </li>
             <li>
-                <a class="nav-item cursor-pointer">Compétences</a>
+                <a class="nav-item cursor-pointer" href="#skills">Compétences</a>
             </li>
             <li>
-                <a class="nav-item cursor-pointer">Portfolio</a>
+                <a class="nav-item cursor-pointer" >Portfolio</a>
             </li>
             <li>
                 <a class="nav-item cursor-pointer" href="#contact">Contact</a>
@@ -56,7 +55,7 @@
             var scrollPercentage = Math.round((window.scrollY / (document.body.offsetHeight - window.innerHeight)) * 100);
             
 
-            dotgobegin.style.bottom = (scrollPercentage == 0) ? '-5%' : '5%';
+            dotgobegin.style.bottom = (scrollPercentage == 0) ? '-5%' : '0';
 
             if(scrollPercentage == 0){
                 navbar.classList.remove('scrolled');
@@ -68,28 +67,34 @@
 
     <section id="reception" class="reception">
 
-        <span class="planet-wrapper">
+        <!--<span class="planet-wrapper">
 
         </span>
         <span class="shooting-star"></span>
         <span class="shooting-star"></span>
         <span class="shooting-star"></span>
-        <span class="planet"></span>
+        <span class="planet"></span>-->
 
-        <center>
-        <h1 class="my-name">Steunou Yann</h1>
-        <h2 class="job">Développeur Full Stack - Étudiant</h2>
-        </center>
+
+
+        <div class="reception-text-wrapper">
+
+            <h1 class="my-name">Steunou Yann</h1> 
+            
+            <div class="job-wrapper">
+                <h2 class="job">Développeur Full Stack - Étudiant</h2>
+            </div>
+        </div>
+   
+
     </section>
 
     <section id="about-me" class="about-me">
-        <center>
-            <h2 class="section-title">À PROPOS DE MOI</h2>
-        </center>
+        <h2 class="section-title">À PROPOS DE MOI</h2>
 
         <div class="about-me-grid">
             <div class="profile-img-wrapper">
-                <img src="pictures/pdp.jpg" alt="" class="about-me-img">
+                <img src="assets/pdp.jpg" alt="" class="about-me-img">
                 <div class="test"></div>
             </div>
 
@@ -102,7 +107,7 @@
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 
-                <form method="get" action="SteunouYannCV.pdf">
+                <form method="get" action="assets/SteunouYannCV.pdf" target="_blank">
                     <button class="purple-btn cursor-pointer" type="submit">Voir mon CV</button>
                 </form>
             </div>
@@ -110,7 +115,7 @@
     </section>
 
     <section id="experience" class="experience">
-        <center><h2 class="section-title">Parcours</h2></center>
+        <h2 class="section-title">Parcours</h2>
 
         <div class="timeline-element">
             <p style="font-weight: bold;">BTS SIO option SLAM</p>
@@ -119,11 +124,48 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <center>
-            <h2 class="section-title">ME CONTACTER</h2>
-        </center>
+    <section id="skills" class="skills">
 
+        <h2 class="section-title">Compétences</h2>
+
+        <div class="skills-wrapper">
+            
+            <div class="skills-category">
+                <span class="skills-label"><p>BACK-END</p></span>  
+                <span class="skill-wrapper"><img src="assets/icons/csharp.png" alt="c#"></span>
+                <span class="skill-wrapper"><img src="assets/icons/cpp.png" alt="c++"></span>
+                <span class="skill-wrapper"><img src="assets/icons/c.png" alt="c"></span>
+                <span class="skill-wrapper"><img src="assets/icons/python.png" alt="python"></span>
+                <span class="skill-wrapper"><img src="assets/icons/php.png" alt="php"></span>
+                <span class="skill-wrapper"><img src="assets/icons/mysql.png" alt="mysql"></span>
+                <span class="skill-wrapper"><img src="assets/icons/symfony.png" alt="symfony"></span>
+            </div>
+            
+            <div class="skills-category">
+                <span class="skills-label"><p>FRONT-END</p></span>
+                <span class="skill-wrapper"><img src="assets/icons/html.png" alt="html"></span>
+                <span class="skill-wrapper"><img src="assets/icons/css.png" alt="css"></span>
+                <span class="skill-wrapper"><img src="assets/icons/javascript.png" alt="javascript"></span>
+            </div>
+        
+    
+            <div class="skills-category">
+                <span class="skills-label"><p>OUTILS</p></span>
+                <span class="skill-wrapper"><img src="assets/icons/github.png" alt="github"></span>
+                <span class="skill-wrapper"><img src="assets/icons/sublimemerge.png" alt="sublime merge"></span>
+                <span class="skill-wrapper"><img src="assets/icons/vscode.png" alt="vscode"></span>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <h2 class="section-title">ME CONTACTER</h2>
+ 
         <div class="contact-grid">
             <div class="contact-form">
                 <form action="">
@@ -133,6 +175,16 @@
                     <textarea id="content" rows="5" class="contact-field" placeholder="Votre message" required></textarea>
                     <button type="submit" class="purple-btn cursor-pointer" style="width:100%; border-radius:0;">Envoyer</button>
                 </form>
+
+
+                <script>
+                    var contactFields = document.getElementsByClassName('contact-field');
+                    for(let field of contactFields){
+                        field.addEventListener('input', function(){
+                            window.alert('Le formulaire est la juste pour faire beau :(, utilisez mon email !')
+                        })
+                    }
+                </script>
             </div>
 
             <div class="contacts">
@@ -141,10 +193,10 @@
                 </p>
 
                 <button class="dot cursor-pointer" onclick="GoToLinkedIn()">
-                    <img class="social-icon" src="pictures/icon/linkedin.png" alt="" >
+                    <img class="social-icon" src="assets/icons/linkedin.png" alt="" >
                 </button>
                 <button class="dot cursor-pointer"  onclick="GoToGitHub()">
-                    <img class="social-icon" src="pictures/icon/github.png" alt="">
+                    <img class="social-icon" src="assets/icons/github.png" alt="">
                 </button>
             </div>
         </div>

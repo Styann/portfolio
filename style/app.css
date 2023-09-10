@@ -13,6 +13,9 @@
     /* purple btn var */
     --slight-purple:rgb(181, 146, 199);
 
+
+    --purple-gradient: linear-gradient(to right, #6253e1, #852D91);
+    --purple-box-shadow: rgba(126, 52, 161, 0.75);
 }
 
 a {
@@ -41,10 +44,9 @@ body{
     height: 35px;
     width: 35px;
     padding: 8px 3px 3px 3px;
-    border-radius: 50%;
 
-    right: 5%;
     bottom: -5%;
+    right: 0;
     transition: bottom 250ms ease-in-out;
 
     text-align: center;
@@ -73,7 +75,7 @@ body{
     border-radius: 4vmin;
     text-transform: uppercase;
     
-    background-image: linear-gradient(to right, #6253e1, #852D91);
+    background-image: var(--purple-gradient);
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 .purple-btn:hover{
@@ -81,16 +83,25 @@ body{
 }
 
 /* GENERAL SECTION */
+section{
+    height: 600px;
+
+    background-color: var(--second-color);
+    color: white;
+
+    padding: 80px 18%;
+}
+
 .section-title{
     margin-bottom: 80px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    text-align: center;
 }
 
 /* RECEPTION */
 .reception{
     margin-top: 90px;
-    height: 500px;
-    width: 100%;
+
 
     background-color: var(--second-color);
     color: white;
@@ -99,8 +110,13 @@ body{
     place-items: center;
 }
 
+.reception-text-wrapper{
+    text-align: center;
+}
+
 .my-name{
-    font-size: 400%;
+    margin: 4% 0;
+    font-size: 4.5em;
     font-family: 'Raleway', sans-serif !important;
     font-weight: bold;
     background: linear-gradient(90deg, rgba(197,81,255,1) 30%, rgb(81, 206, 255) 79%);
@@ -108,10 +124,14 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
+.job-wrapper{
+    display: inline-block;
+}
+
 .job{
+    width: 0;
     white-space: nowrap;
     overflow: hidden;
-    width: 0%;
     border-right: solid white 2px ;
     animation: typing 6s steps(15) forwards, caret .5s infinite;
 }
@@ -163,12 +183,7 @@ body{
 
 /* ABOUT ME */
 .about-me{
-    height: 500px;
-
-    background-color: var(--second-color);
-    color: white;
-
-    padding: 80px 120px;
+ 
 }
 
 .about-me-grid{
@@ -213,16 +228,12 @@ body{
 
 /* CONTACT SECTION */
 .contact{
-    height: 500px;
-    background-color: var(--second-color);
-    color: white;
 
-    padding: 80px 120px;
 }
 
 .contact-grid{
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 100%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -302,9 +313,53 @@ body{
 
 /* EXPERIENCE */
 .experience{
-    height: 500px;
-    background-color: var(--second-color);
-    color: white;
 
-    padding: 80px 120px;
 }
+
+/* SKILLS */
+.skills{
+    padding: 80px 10%;
+}
+
+
+.skills-wrapper{
+
+}
+
+.skills-category{
+    display: flex;
+
+    gap:20px;
+    margin: 60px;
+}
+
+.skills-category span{
+    height: 100px;
+    width: 100px;
+    
+    display: grid;
+    place-items: center;
+    transform: rotate(8deg);
+}
+
+.skills-label{
+    background-image: var(--purple-gradient);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.skill-wrapper{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+.skill-wrapper > img{
+    height: auto;
+    width: 68%;
+
+}
+.skill-wrapper:hover{
+    transform: /*translateY(-10px)*/ rotate(0deg);
+
+
+}
+
