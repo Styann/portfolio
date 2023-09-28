@@ -6,10 +6,17 @@
     <title>Steunou Yann</title>
     <link rel="icon" href="assets/icons/logo-v2.svg">
     
-    <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/app.css">
+
+    <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/timeline.css">
+
+    <link rel="stylesheet" href="style/section/reception.css">
+    <link rel="stylesheet" href="style/section/about-me.css">
+    <link rel="stylesheet" href="style/section/experience.css">
+    <link rel="stylesheet" href="style/section/skills.css">
+    <link rel="stylesheet" href="style/section/contact.css">
+    
 
     <script src="index.js"></script>
 </head>
@@ -36,26 +43,26 @@
                 <a class="nav-item cursor-pointer" href="#skills">Compétences</a>
             </li>
             <li>
-                <a class="nav-item cursor-pointer" >Portfolio</a>
+                <a class="nav-item cursor-pointer">Portfolio</a>
             </li>
             <li>
                 <a class="nav-item cursor-pointer" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
-
-    <a class="dot-go-begin" id="dot-go-begin" href="#">
-        <span class="arrow-top"></span>
+    
+    <a id="back-to-top" class="back-to-top" href="#">
+        <img src="assets/icons/arrow.svg" alt="back to top">
     </a>
     <script>
-        const dotgobegin = document.getElementById('dot-go-begin');
+        const backToTop = document.getElementById('back-to-top');
         const navbar = document.getElementById('nav');
 
         document.addEventListener('scroll', function(event) {
             var scrollPercentage = Math.round((window.scrollY / (document.body.offsetHeight - window.innerHeight)) * 100);
             
 
-            dotgobegin.style.bottom = (scrollPercentage == 0) ? '-5%' : '0';
+            backToTop.style.bottom = (scrollPercentage == 0) ? '-5%' : '0';
 
             if(scrollPercentage == 0){
                 navbar.classList.remove('scrolled');
@@ -78,11 +85,10 @@
 
 
         <div class="reception-text-wrapper">
-
-            <h1 class="my-name">Steunou Yann</h1> 
-            
+            <h1 class="my-name purple-text-shadow">Steunou Yann</h1> 
+                  
             <div class="job-wrapper">
-                <h2 class="job">Développeur Full Stack - Étudiant</h2>
+                <h2 class="job">Full Stack Developer - Student&nbsp;</h2>
             </div>
         </div>
    
@@ -117,49 +123,106 @@
     <section id="experience" class="experience">
         <h2 class="section-title">Parcours</h2>
 
-        <div class="timeline-element">
-            <p style="font-weight: bold;">BTS SIO option SLAM</p>
-            <div class="timeline-hr"></div>
-            <p>2890</p>
+        <div class="timeline">
+       
+            <div class="guideline-wrapper">
+                <!-- <div class="guideline"></div> -->
+            </div>
+
+            <div class="event-wrapper-1 end-content">
+                <div class="event">
+                    <div class="event-label">
+                        <p><time>2017 - 2020</time></p>
+                        <p class="event-center">Lycée Olivier Guichard - Guérande</p>
+                        <p>BAC Professionnel Maintenance des matériels</p>
+                    </div>
+                    <div class="event-line"></div>
+                </div>
+            </div>
+            
+            <div class="event-wrapper-2 end-content">
+                <div class="event">
+                    <div class="event-label">
+                        <p><time>2021 - 2023</time></p>
+                        <p class="event-center">Lycée Carcouët - Nantes</p>
+                        <p>BTS SIO option SLAM</p>
+                    </div>
+                    <div class="event-line"></div>
+                </div>
+            </div>
+            
+            <div class="event-wrapper-3 end-content">
+                <div class="event">
+                    <div class="event-label">
+                        <p><time>2023 - 2024</time></p>
+                        <p class="event-center">Institut d'Informatique Apppliquée - Saint-Nazaire</p>
+                        <p>Licence informatique option développement</p>
+                    </div>
+                    <div class="event-line"></div>
+                </div>
+            </div>
         </div>
+
+       
+
+        
+
+
+
+        <script>
+            const events = document.getElementsByClassName('event');
+            console.log(events);
+
+            for(let i = 0; i<events.length; i++){
+       
+                //events[i].style.marginBottom = `${i*18}px`;
+            }
+        </script>
+
+
     </section>
 
     <section id="skills" class="skills">
 
         <h2 class="section-title">Compétences</h2>
 
-        <div class="skills-wrapper">
-            
-            <div class="skills-category">
-                <span class="skills-label"><p>BACK-END</p></span>  
-                <span class="skill-wrapper"><img src="assets/icons/csharp.png" alt="c#"></span>
-                <span class="skill-wrapper"><img src="assets/icons/cpp.png" alt="c++"></span>
-                <span class="skill-wrapper"><img src="assets/icons/c.png" alt="c"></span>
-                <span class="skill-wrapper"><img src="assets/icons/python.png" alt="python"></span>
-                <span class="skill-wrapper"><img src="assets/icons/php.png" alt="php"></span>
-                <span class="skill-wrapper"><img src="assets/icons/mysql.png" alt="mysql"></span>
-                <span class="skill-wrapper"><img src="assets/icons/symfony.png" alt="symfony"></span>
-            </div>
-            
-            <div class="skills-category">
-                <span class="skills-label"><p>FRONT-END</p></span>
-                <span class="skill-wrapper"><img src="assets/icons/html.png" alt="html"></span>
-                <span class="skill-wrapper"><img src="assets/icons/css.png" alt="css"></span>
-                <span class="skill-wrapper"><img src="assets/icons/javascript.png" alt="javascript"></span>
-            </div>
-        
-    
-            <div class="skills-category">
-                <span class="skills-label"><p>OUTILS</p></span>
-                <span class="skill-wrapper"><img src="assets/icons/github.png" alt="github"></span>
-                <span class="skill-wrapper"><img src="assets/icons/sublimemerge.png" alt="sublime merge"></span>
-                <span class="skill-wrapper"><img src="assets/icons/vscode.png" alt="vscode"></span>
-            </div>
+        <div class="twrapper">
+
+            <span class="img-wrapper">
+                <img src="assets/icons/cpp.png" alt="">
+            </span>
+
+
+            <label>C++</label>
         </div>
 
-
-
-
+        <center>
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <span class="skills-label"><p>BACK-END</p></span>
+                    <span class="skill-wrapper"><img src="assets/icons/csharp.png" alt="c#"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/cpp.png" alt="c++"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/python.png" alt="python"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/php.png" alt="php"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/mysql.png" alt="mysql"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/symfony.png" alt="symfony"></span>
+                </div>
+                      
+                <div class="skills-category">
+                    <span class="skills-label"><p>FRONT-END</p></span>
+                    <span class="skill-wrapper"><img src="assets/icons/html.png" alt="html"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/css.png" alt="css"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/javascript.png" alt="javascript"></span>
+                </div>
+                    
+                <div class="skills-category">
+                    <span class="skills-label"><p>OUTILS</p></span>
+                    <span class="skill-wrapper"><img src="assets/icons/github.png" alt="github"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/sublimemerge.png" alt="sublime merge"></span>
+                    <span class="skill-wrapper"><img src="assets/icons/vscode.png" alt="vscode"></span>
+                </div>
+            </div>
+        </center>
     </section>
 
     <section id="contact" class="contact">

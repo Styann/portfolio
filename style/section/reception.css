@@ -1,0 +1,84 @@
+/* RECEPTION */
+.reception{
+    margin-top: 90px;
+
+
+    background-color: var(--second-color);
+    color: white;
+
+    display: grid;
+    place-items: center;
+}
+
+.reception-text-wrapper{
+    display: grid;
+    place-items: center;
+}
+
+.my-name{
+    margin: 4% 0;
+    font-size: 5em;
+    /* font-family: 'Raleway', sans-serif !important; */
+    font-family: edo;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(197,81,255,1) 30%, rgb(81, 206, 255) 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.job-wrapper{
+    display: inline-block;
+}
+
+.job{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    width: 0;
+    animation: typing 6s steps(15) forwards, caret .5s infinite;
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    33%{
+        width: 100%;
+    }
+    to{
+        width:100%;
+    }
+}
+
+@keyframes caret{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.shooting-star{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    background-color: white;
+    animation: shooting 5s linear infinite;
+}
+
+@keyframes shooting {
+    from{
+        left: -100px;
+        top: 40%;
+    }to{
+        left: 100%;
+        top: 60%;
+    }
+}
+
+.planet{
+    top: 140px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: linear-gradient(140deg,  #6253e1, #4f0b58);
+}

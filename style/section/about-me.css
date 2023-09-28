@@ -1,0 +1,41 @@
+/* ABOUT ME */
+.about-me{
+ 
+}
+
+.about-me-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.profile-img-wrapper{
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    place-items: center;
+}
+
+.about-me-text-wrapper{
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    place-items: start center;
+}
+
+.about-me-text{
+    line-height: 1.7em;
+}
+
+.about-me-img{
+    border-radius: 5px;
+    height: 320px;
+    width: 320px;
+    transform: rotate(-4deg);
+    filter: hue-rotate(40deg);
+    transition: 500ms;
+}
+.about-me-img:hover{
+    transform: rotate(0);
+    filter: hue-rotate(0);
+}
