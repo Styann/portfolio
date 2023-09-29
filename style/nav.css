@@ -14,6 +14,7 @@ nav{
 }
 nav.scrolled{
     background-color: var(--main-color);
+    box-shadow: 0 10px 10px -10px black;
 }
 
 .nav-icon-wrapper{

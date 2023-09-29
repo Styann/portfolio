@@ -7,6 +7,7 @@
     /* VAR */
     --main-color: #1c1833;
     --second-color:#231e3d;
+    /*--second-color:white;*/
   
     --slight-color: #6c757d;
 
@@ -105,7 +106,8 @@ body{
 
 /* GENERAL SECTION */
 section{
-    height: 600px;
+    height: auto;
+    min-height: 600px;
 
     background-color: var(--second-color);
     color: white;

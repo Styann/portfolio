@@ -2,11 +2,9 @@
 .skills{
     padding: 80px 10%;
     height: auto;
-}
 
-
-.skills-wrapper{
-    /* display: inline-block; */
+    display: grid;
+    place-items: center;
 }
 
 .skills-category{
@@ -15,6 +13,7 @@
     grid-template-columns: 80px auto;
     grid-column-gap: 10px;
 }
+
 
 .skills-label{
     display: grid;
@@ -30,8 +29,9 @@
 
 .skills-flex{
     display: flex;
+    justify-content:flex-start;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
-    padding: 0;
     grid-area: 1 / 2 / 2 / 3;
     min-height: 160px;
     /*display: grid;
@@ -82,12 +82,12 @@
 
 
 
-.mysql-skill:hover #mysql path{
+/*.mysql-skill:hover #mysql path{
     fill: #00618A;
 }
 #mysql path{
     fill: white;
-}
+}*/
 
 
 .github-skill:hover{
@@ -102,8 +102,3 @@
     fill: white;
 }
 
-.vscode-skill:hover #vscode path{
-}
-#vscode path{
-    fill: white;
-}

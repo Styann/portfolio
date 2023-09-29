@@ -27,7 +27,7 @@
     content: "steunouyannpro@gmail.com";
 }
 
-.dot{
+.dot-btn{
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -48,7 +48,7 @@
 }
 
 
-.dot:hover{
+.dot-btn:hover{
     filter: invert(1);
 }
 
