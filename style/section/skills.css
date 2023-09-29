@@ -1,67 +1,109 @@
 /* SKILLS */
 .skills{
     padding: 80px 10%;
+    height: auto;
 }
 
 
 .skills-wrapper{
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .skills-category{
-    display: flex;
-
-    gap:20px;
-    margin: 60px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-column-gap: 10px;
 }
 
 .skills-label{
-    height: 100px;
-    width: 100px;
-    
     display: grid;
     place-items: center;
-    transform: rotate(8deg);
     background-image: var(--purple-gradient);
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    grid-area: 1 / 1 / 2 / 2;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+
 }
 
-.skill-wrapper{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(29, 29, 29);
-    transition: 150ms;
+
+.skills-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    grid-area: 1 / 2 / 2 / 3;
+    min-height: 160px;
+    /*display: grid;
+    grid-template-columns: repeat(auto-fill), minmax(300px, 1fr);*/
+
+}
+
+.skill{
+    height: 80px;
+    width: 360px;
     display: grid;
-    place-items: center;
-    transform: rotate(8deg);
-}
-.skill-wrapper > img{
-    height: auto;
-    width: 68%;
-
-}
-.skill-wrapper:hover{
-    transform: rotate(8deg) translateY(-10px);
-}
-
-
-
-
-.twrapper{
-    height: 100px;
-    width: 100px;
-
-    display: grid;
-    grid-template-rows: 80px 20px;
-    grid-column-gap: 0px;
+    grid-template-columns: 80px 270px;
+    grid-template-rows: 80px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
+    transition: 100ms;
+    border-radius: 2vmin;
+}
+.skill:hover{
+    background-color: var(--main-color);
 }
 
 .img-wrapper{
-    grid-area: 1/1/2/2;
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    place-items: center;
+
+}
+.img-wrapper svg{
+    height: 56px;
+    width: auto;
 }
 
 .img-wrapper img{
-    height: 80px;
+    height: 56px;
     width: auto;
+}
+
+
+.skill label{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.4em;
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    place-items: center start;
+}
+
+
+
+
+.mysql-skill:hover #mysql path{
+    fill: #00618A;
+}
+#mysql path{
+    fill: white;
+}
+
+
+.github-skill:hover{
+    background-color: white;
+    color: black;
+}
+.github-skill:hover #github g{
+    fill: black;
+}
+
+#github g{
+    fill: white;
+}
+
+.vscode-skill:hover #vscode path{
+}
+#vscode path{
+    fill: white;
 }

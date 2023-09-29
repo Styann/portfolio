@@ -31,12 +31,20 @@ button{
     src: url('font/edo.ttf');
 }
 
+@font-face {
+    font-family: 'ApercuMono';
+    src: url('font/ApercuMonoProRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('font/Mulish-VariableFont_wght.ttf');
+}
 
 body{
     scroll-behavior: smooth;
     margin: 0;
-
-    font-family: Arial;
+    font-family: 'ApercuMono';
     background-color: var(--second-color);
 }
 
@@ -109,4 +117,5 @@ section{
     margin-bottom: 80px;
     text-transform: uppercase; 
     text-align: center;
+    font-family: 'edo';
 }
