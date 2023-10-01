@@ -3,41 +3,65 @@
     
     display: grid;
     place-items: center;
+
+    padding: 80px 0;
+}
+
+.fifty-fifty{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
 
 .timeline{
-    width: fit-content;
+    width: 600px;
+
 }
 
 .timeline li{
     /* margin: 0% 2%; */
     display: grid;
-    grid-template-columns: 140px 500px;
+    grid-template-columns: auto 1px 80%;
     /* grid-template-rows: repeat(3, 1fr); */
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 
 .guideline-wrapper{
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 1 / 2 / 2 / 3;
     display: grid;
     place-items: center;
 }
 
-time{
+.time{
     font-size: 0.8em;
-    position: absolute;
     color: grey;
-    transform: translateX(-70px);
+    /* transform: translateX(-70px); */
+    grid-area: 1 / 1 / 2 / 2;
+    /*display: grid;
+    place-items: center start;*/
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: 18%;
 }
+
 
 .guideline{
     height: 100%;
     width: 1px;
     background-color: gray;
 }
+.guideline.start{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent 0%, grey 30%);
+}
+.guideline.end{
+    background-color: transparent;
+    background-image: linear-gradient(to top, transparent 0%, grey 30%);
+}
 
-.dot{position: absolute;
+.dot{
+    position: absolute;
     height: 24px;
     width: 24px;
     border-radius: 50%;
@@ -50,11 +74,12 @@ time{
 .event {
     display: grid;
     width: 100%;
+    margin-left: 50px;
     grid-template-rows: 80px 10px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    padding: 8% 0;
-    grid-area: 1 / 2 / 2 / 3;
+    padding: 12% 0;
+    grid-area: 1 / 3 / 2 / 4;
 }
 
 .event-label {
@@ -66,11 +91,12 @@ time{
 
 
 .study{
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 
 .event-center{
+    font-size: 0.8em;
     color: grey;
 }
 
