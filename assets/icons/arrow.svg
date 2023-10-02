@@ -51,11 +51,11 @@
      id="layer1"
      transform="translate(-26.2013,-88.116552)">
     <path
-       style="fill:#ffffff;stroke-width:0.479999;paint-order:stroke fill markers"
+       style="fill:#e17102;stroke-width:0.479999;paint-order:stroke fill markers"
        d="m 37.51948,103.09091 111.85714,2.1039"
        id="path236" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7.56679;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3);paint-order:stroke fill markers;image-rendering:auto"
+       style="fill:#e17102;fill-opacity:1;stroke:#e17102;stroke-width:7.56679;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3);paint-order:stroke fill markers;image-rendering:auto"
        d="m 52.685064,95.358783 c 0,56.936847 0,56.936847 0,56.936847"
        id="path3082"
        inkscape:export-filename="arrow.svg"

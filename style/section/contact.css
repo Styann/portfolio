@@ -1,7 +1,4 @@
 /* CONTACT SECTION */
-.contact{
-
-}
 
 .contact-grid{
     display: grid;
@@ -59,7 +56,6 @@
     height: 40px;
     margin: 8px 0;
     background-color: var(--main-color);
-    color: white;
     outline: none;
 
     padding: 0;
@@ -81,4 +77,22 @@
 }
 .contact-form-btn:hover{
     opacity: 0.84;
+}
+
+
+
+@media screen and (max-width: 740px){
+    .contact-grid{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 60%;
+        grid-row-gap: 10%;
+    }
+
+    .contacts{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .contact-form{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    
 }

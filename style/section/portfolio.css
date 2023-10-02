@@ -1,0 +1,30 @@
+/* PORTFOLIO */
+
+.project-wrapper-even{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.preview{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.details{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.project-title{
+    font-family: 'Mulish';
+    font-size: large;
+    font-weight: bold;
+    display: grid;
+    place-content: center;
+}
+
+.project-summary{
+    word-break: break-all;
+}
+
+.project-tech{
+
+}
