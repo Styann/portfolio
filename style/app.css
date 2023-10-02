@@ -115,6 +115,11 @@ section{
 
     padding: 80px 18%;
 }
+@media screen and (max-width:940px){
+    section{
+        padding: 80px 2%;
+    }
+}
 
 .section-title{
     margin-bottom: 80px;
