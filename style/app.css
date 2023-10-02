@@ -104,7 +104,7 @@ body{
     
     background-image: var(--orange-gradient);
     /* box-shadow: 0 4px 15px 0 var(--orange-shadow); */
-    box-shadow: 0 4px 15px 0 rgba(209, 155, 37, 0.658);
+    box-shadow: 0 4px 15px 0 var(--orange-shadow);
 }
 .purple-btn:hover{
     box-shadow: none;

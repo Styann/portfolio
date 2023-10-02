@@ -29,7 +29,7 @@
     overflow: hidden;
     border-right: 2px solid var(--cf-black);
     width: 0;
-    animation: typing 6s steps(15) forwards, caret .5s infinite;
+    animation: typing 6s steps(15) forwards, caret 1s infinite steps(1);
 }
 
 .tech-stack-wrapper{

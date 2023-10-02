@@ -51,7 +51,8 @@
 
 .contact-field{
     border: 0;
-
+    font-family: 'ApercuMono';
+    font-size: 0.8rem;
     width: 99%;
     height: 40px;
     margin: 8px 0;

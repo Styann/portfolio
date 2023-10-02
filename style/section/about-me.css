@@ -22,7 +22,8 @@
 
 .about-me-text{
     line-height: 1.7em;
-}
+    text-align: center;
+}    
 
 .about-me-img{
     border-radius: 5px;
