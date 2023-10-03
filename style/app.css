@@ -11,6 +11,7 @@
     --second-color: #f7f3ff;
     
     --cf-black: black;
+    --cf-white: white; 
     /*--c-white-1:white;
     --c-white-2: #f7f3ff; */
 
@@ -93,20 +94,20 @@ body{
 }
 
 
-.purple-btn{
+.orange-btn{
     width: auto;
     min-width: 150px;
     height: auto;
     padding: 14px 16px;
     color: white;
-    border-radius: 4vmin;
+    border-radius: 4vh;
     text-transform: uppercase;
     
     background-image: var(--orange-gradient);
     /* box-shadow: 0 4px 15px 0 var(--orange-shadow); */
     box-shadow: 0 4px 15px 0 var(--orange-shadow);
 }
-.purple-btn:hover{
+.orange-btn:hover{
     box-shadow: none;
 }
 
@@ -114,6 +115,11 @@ body{
     text-shadow: 0 4px 15px 0 var(--orange-shadow);
 }
 
+.container-skin{
+    background-color: var(--main-color);
+    box-shadow: 0px 10px 20px var(--slight-shadow);
+    border-radius: 1vmin;
+}
 
 /* GENERAL SECTION */
 section{

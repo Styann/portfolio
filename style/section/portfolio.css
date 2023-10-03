@@ -3,10 +3,7 @@
 .project{
     display: grid;
     grid-column-gap: 4%;
-    background-color: var(--main-color);
-    box-shadow: 0px 10px 20px var(--slight-shadow);
     padding: 3%;
-    border-radius: 1vmin;
     margin: 4% 0;
 }
 .project-even{
@@ -47,7 +44,44 @@
 }
 
 .project-tech{
-    display: flex;
-    height: 46px;
-    gap: 20px;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 50px);
+    grid-column-gap: 20px;
+}
+
+
+.visit-my-github{
+    display: grid;
+    grid-template-columns: 30% 55%;
+    grid-column-gap: 15%;
+    padding: 3%;
+    margin: 4% 0;
+}
+
+.github-btn{
+    width: fit-content;
+    display: grid;
+    height: 60px;
+    grid-template-columns: auto 60px;
+
+    border-radius: 4vh;
+    background-color: black;
+
+    color: var(--cf-white);
+
+    transition: 400ms;
+    padding: 0;
+}
+
+.github-btn-label{
+    display: grid;
+    place-items: center;
+    margin-left: 16px;
+}
+
+.github-btn-img{
+    display: grid;
+    place-items: center;
+    height: 100%;
 }
