@@ -16,3 +16,6 @@ function getOld(birthdate = new Date('12/11/2002')){
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
+function copyEmail(){
+    navigator.clipboard.writeText('steunouyannpro@gmail.com'); 
+}

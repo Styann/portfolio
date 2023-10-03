@@ -17,6 +17,19 @@
     text-align: end;
 }
 
+
+#clipboard-btn{
+    background: none;
+}
+#clipboard-btn img{
+    vertical-align: middle;
+    width: 16px;
+}
+#clipboard-btn:hover{
+    opacity: 0.8;
+}
+
+
 .my-email{
     color:var(--slight-color);
 }

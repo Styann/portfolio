@@ -2,32 +2,27 @@
 
 .project{
     display: grid;
-    grid-column-gap: 4%;
+    grid-gap: 2%;
     padding: 3%;
     margin: 4% 0;
+    height: auto !important                   ;
 }
 .project-even{
-    grid-template-columns: 68% 28%;
+    grid-template-columns: 69% 29%;
 }
 .project-odd{
-    grid-template-columns: 28% 68%;
+    grid-template-columns: 29% 69%;
 }
 
 .slider{
-    
-    /* display: flex; */
     overflow: hidden;
 }
 .slider img{
     width: 100%;
     height: auto;
-    overflow: hidden;
     border-radius: 1vmin;
 }
 
-.details{
-    
-}
 
 .project-title{
     font-family: 'Mulish';
@@ -43,24 +38,49 @@
     font-size: 0.9rem;
 }
 
+.project-tech-wrapper{
+    display: grid;
+    place-items: center;
+    margin: 4px 0;
+}
 .project-tech{
     display: grid;
-    
     grid-template-columns: repeat(3, 50px);
     grid-column-gap: 20px;
 }
 
 
+.task-list{
+    text-align: left;
+}
+.task-list ul{
+    margin-top: 4px;
+}
+
+
 .visit-my-github{
+    width: 60%;
     display: grid;
-    grid-template-columns: 30% 55%;
-    grid-column-gap: 15%;
+    grid-template-columns: auto auto;
+    /* grid-column-gap: 15%; */
     padding: 3%;
     margin: 4% 0;
 }
 
+.octocat-wrapper{
+    width: 300px;
+    height: 300px;
+}
+
+.github-btn-wrapper{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    /* margin-top: 50% 0; */
+}
+
+
 .github-btn{
-    width: fit-content;
     display: grid;
     height: 60px;
     grid-template-columns: auto 60px;
@@ -73,15 +93,63 @@
     transition: 400ms;
     padding: 0;
 }
-
 .github-btn-label{
+    height: 100%;
     display: grid;
     place-items: center;
     margin-left: 16px;
 }
-
 .github-btn-img{
     display: grid;
     place-items: center;
     height: 100%;
+}
+
+
+.slider.even{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.details.even{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
+@media screen and (max-width: 1500px){
+    .project{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        padding: 2%;
+    }
+    
+    .slider.even{
+        grid-area: auto;
+    }
+    .details.even{
+        grid-area: auto;
+    }
+
+    .project-tech{
+        grid-template-columns: repeat(3, 36px);
+    }
+
+    .details p{
+        margin: 2% 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .visit-my-github{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .visit-my-github{
+        padding: 2%;
+    }
+
+    .octocat-wrapper{
+        width: 180px;
+        height: 180px;
+    }
 }
