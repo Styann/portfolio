@@ -1,11 +1,9 @@
-/* PORTFOLIO */
-
 .project{
     display: grid;
     grid-gap: 2%;
     padding: 3%;
     margin: 4% 0;
-    height: auto !important                   ;
+    height: auto !important;
 }
 .project-even{
     grid-template-columns: 69% 29%;
@@ -46,6 +44,7 @@
 .project-tech{
     display: grid;
     grid-template-columns: repeat(3, 50px);
+    grid-template-rows: auto;
     grid-column-gap: 20px;
 }
 
