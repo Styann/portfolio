@@ -1,3 +1,12 @@
+@import 'nav.css';
+@import 'footer.css';
+
+@import 'section/about-me.css';
+@import 'section/contact.css';
+@import 'section/experience.css';
+@import 'section/portfolio.css';
+@import 'section/reception.css';
+
 :root{
     /* Thin Scrollbar */
     scrollbar-color: #d2d2d2 #2e3645 !important;
