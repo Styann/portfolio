@@ -49,7 +49,7 @@
 
 .tech-stack{
     display: grid;
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(9, auto);
     grid-gap: 30px;
     margin-top: 2%;
     margin-bottom: 5%;
